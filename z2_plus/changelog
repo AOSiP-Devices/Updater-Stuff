@@ -1,0 +1,24 @@
+ROM-specific changelog:
+Ignore device null account in Contacts
+Don't elaborate useless waveform in Pulse
+Fixed Pulse disappearing sometimes after skipping tracks
+Fixed potential Smartbar FC for buttons custom application
+Fixed smartbar media arrows not showing sometimes
+Globally enabled full alarm info in quick settings drawer
+Remove fancy colon for the lockscreen clock
+fingerprint: Speed up wake-and-unlock scenario
+Add 'GoogleSans' font family
+
+Device related changelog:
+Kernel upstreamed to 3.18.99
+Hopefully solve the heating issues
+Ability to change cpu throttle temp and thermal limit in Kernel Adiutor
+Westwood as default TCP congestion algorithm
+Enabled Adreno Idler by default
+Underclocked big cores to 1824 Mhz and LITTLE cores 1475 Mhz (see https://goo.gl/HmSdru) to reduce heating further
+Stable GPU overclock to 652 Mhz
+Enabled FP, cpu input and screen wake boost by default
+Maple as default I/O scheduler
+Enabled boeffla wakelock blocker to block certain wakelocks by default
+Disabled Touch-Boost (this was causing the little cores to jump to highest frequency whenever the screen is touched). Can be toggled in Kernel Adiutor
+Faster FP and screen unlock
