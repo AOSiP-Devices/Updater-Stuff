@@ -1,0 +1,9 @@
+Ignore device null account in Contacts
+Don't elaborate useless waveform in Pulse
+Fixed Pulse disappearing sometimes after skipping tracks
+Fixed potential Smartbar FC for buttons custom application
+Fixed smartbar media arrows not showing sometimes
+Globally enabled full alarm info in quick settings drawer
+Remove fancy colon for the lockscreen clock
+fingerprint: Speed up wake-and-unlock scenario
+Add 'GoogleSans' font family
