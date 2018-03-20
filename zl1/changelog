@@ -7,3 +7,9 @@ Globally enabled full alarm info in quick settings drawer
 Remove fancy colon for the lockscreen clock
 fingerprint: Speed up wake-and-unlock scenario
 Add 'GoogleSans' font family
+Kernel updated
+Fixed echo on calls
+Fixed bt calls
+Cleaned leeco extras code
+Better cdla fix
+Better fix for contrast bug
