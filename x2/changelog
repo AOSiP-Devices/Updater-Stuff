@@ -1,9 +1,11 @@
-Ignore device null account in Contacts
-Don't elaborate useless waveform in Pulse
-Fixed Pulse disappearing sometimes after skipping tracks
-Fixed potential Smartbar FC for buttons custom application
-Fixed smartbar media arrows not showing sometimes
-Globally enabled full alarm info in quick settings drawer
-Remove fancy colon for the lockscreen clock
-fingerprint: Speed up wake-and-unlock scenario
-Add 'GoogleSans' font family
+NOTE: Updater may not work to download this build, this has been fixed and from the next build, it'll work again :)
+
+Changelog:
+Add ability to choose screenshot editing app
+Use power up + volume to take a partial screenshot
+Smoother upload and download animations 
+Jelly browser updates
+Add ability to turn off notification LED
+Theme improvements
+Moar translations!
+Misc. Bug fixes

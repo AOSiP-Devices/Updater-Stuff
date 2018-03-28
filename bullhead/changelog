@@ -1,45 +1,11 @@
-[2/2] Add 'GoogleSans' font family 
-Keyguard: Use google sans font 
-[1/2] Add 'GoogleSans' font family 
-base: Use google-sans font directly in overlay 
-Revert "Revert "Update the way OMS records details about overlays"" 
-OMS: Dismantle FLAG_OVERLAY_TRUSTED check in isOverlayPackage 
-Revert "Revert "OMS: Only allow trusted overlays to be registered."" 
-Camera: Add extensions to CameraClient 
-Camera: Add support for preview frame fd 
-libstagefright: encoder must exist when source starting 
-Camera: fix use after disconnect error 
-stagefright: ACodec: Resolve empty vendor parameters usage 
-libstagefright: Free buffers on observer died 
-media: fix infinite wait at source for HAL1 based recording 
-fingerprint: Speed up wake-and-unlock scenario 
-Keyguard: Actually kill the Fancy Colon 
-Expanded Desk:Cleanup a little code 
-storage: Set all sdcards to visible 
-Revert "Revert "build: Add new variable to hold generic build properties"" 
-vendor/aosip: Clean up our common.mk a bit 
-overlay: Keyguard: Default amPm visibility to false 
-Show full alarm info 
-Remove some depreciated overlays 
-Revert "aosip: Move to Google's method of defining system default props" 
-Fix smartbar media arrows not showing sometimes 
-Fix potential Smartbar FC for buttons custom application 
-Fix Pulse disappearing sometimes after skipping tracks 
-Pulse: don't elaborate useless waveform 
-Contacts: Ignore device null account. 
-Add Bullhead as official Maintained by @anirudhgupta109 
-Add snackbar updater text color to be used by overlays 
-overlay:updater: add device name id to activity_updates.xml 
-ProximityOnWakePreferenceController: implement PreferenceControllerMixin 
-Revert "Revert "Swap the order of synthetic password wrapping"" 
-Updater: update changelog link 
-PackageManager: Catch possible NPE from unparsed platform package 
-init.rc: don't start console unless asked to 
-Return of the ticker scroll [2/2] 
-Return of the ticker scroll [1/2] 
-Ticker: Clear ticker regardless of setting 
-Show clock on left in QS panel if left clock is set 
-wifi: don't check if WIFI_DRIVER_STATE_CTRL_PARAM is readable 
-wifi: Check whether dev node is accessible or not before opening 
-libwifi-hal: add flag to wait for kernel driver to get ready 
-wifi: Prepare to change how the driver is loaded 
+NOTE: Updater may not work to download this build, this has been fixed and from the next build, it'll work again :)
+
+Changelog:
+Add ability to choose screenshot editing app
+Use power up + volume to take a partial screenshot
+Smoother upload and download animations 
+Jelly browser updates
+Add ability to turn off notification LED
+Theme improvements
+Moar translations!
+Misc. Bug fixes
