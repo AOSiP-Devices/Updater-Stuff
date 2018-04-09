@@ -1,35 +1,14 @@
-NOTE: Updater may not work to download this build, this has been fixed and from the next build, it'll work again :)
-
-ROM specific changelog
-- Volume rocker cursor control
-- Animations to QS tiles
-- White navbar for Dialer, Contacts and Messaging
-- Speed up Recents additional buttons show delay
-- Themed autofill save dialog text color, notifications color and toasts
-- QS panel transparency
-- Color picker: show hex input box on top
-- Adjusted delay to prevent glitches when reloading notifications
-- HW keys and Google Assist QS tiles
-- Some string cleanup
-- Adaptive icons for Dialer and Clock
-- Improved size for the warning level exclamation mark in portrait battery
-- Removed fingerprint pref for devices that dont have sensor
-- Fixed string for lockscreen charging
-- Battery light switch
-- Removed AOSP Email app from preinstalled apps list
-- Hide check button when using PIN quick unlock
-- Smoother Upload and Download Animation
-- Jelly and Deskclock updates
-- Screenshot notification edit action support
-- Custom editor app for screenshot notification edit button
-- Disable power button haptic feedback when power menu is hidden on the lockscreen
-- Power+VolUp action to catch a partial area screenshot
-- Google Play store icon in the App Info actionbar of apps
-- Changed developer options strings to something less dumb
-- Minor bug fixes and translation updates
-
-Device side changes
-- Kernel upstreamed to 3.18.101
-- Better RAM management for 3gb RAM models
-- Sound control
-- Removed Adreno Idler and GPU overclock (no significant improvements)
+Add maintainer prop in about phone
+Remove VoLTE from QS Panel
+Change VoLTE icon to VoLIT
+Update fling QS tile icon
+Add Black theme, cleanup some theme stuff
+Set bottom center as default FAB location for recents clear all
+Remove pocket judge
+Dialer lookup
+Support for MicroG
+Fix showing charging symbol in statusbar
+Updates to updater
+Updated translations
+Landscape battery style
+Updates to AOSP Keyboard

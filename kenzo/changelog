@@ -1,11 +1,16 @@
-NOTE: Updater may not work to download this build, this has been fixed and from the next build, it'll work again :)
-
-Changelog:
-Add ability to choose screenshot editing app
-Use power up + volume to take a partial screenshot
-Smoother upload and download animations 
-Jelly browser updates
-Add ability to turn off notification LED
-Theme improvements
-Moar translations!
-Misc. Bug fixes
+Add maintainer prop in about phone
+Remove VoLTE from QS Panel
+Change VoLTE icon to VoLIT
+Update fling QS tile icon
+Add Black theme, cleanup some theme stuff
+Set bottom center as default FAB location for recents clear all
+Remove pocket judge
+Dialer lookup
+Support for MicroG
+Fix showing charging symbol in statusbar
+Updates to updater
+Updated translations
+Landscape battery style
+Updates to AOSP Keyboard
+Early mount /system in kernel
+upstream to 3.10.108 and CAF LA.BR.1.3.6_rb1.25

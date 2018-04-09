@@ -1,0 +1,14 @@
+Add maintainer prop in about phone
+Remove VoLTE from QS Panel
+Change VoLTE icon to VoLIT
+Update fling QS tile icon
+Add Black theme, cleanup some theme stuff
+Set bottom center as default FAB location for recents clear all
+Remove pocket judge
+Dialer lookup
+Support for MicroG
+Fix showing charging symbol in statusbar
+Updates to updater
+Updated translations
+Landscape battery style
+Updates to AOSP Keyboard
