@@ -1,14 +1,131 @@
-Add maintainer prop in about phone
-Remove VoLTE from QS Panel
-Change VoLTE icon to VoLIT
-Update fling QS tile icon
-Add Black theme, cleanup some theme stuff
-Set bottom center as default FAB location for recents clear all
-Remove pocket judge
-Dialer lookup
-Support for MicroG
-Fix showing charging symbol in statusbar
-Updates to updater
-Updated translations
-Landscape battery style
-Updates to AOSP Keyboard
+The changelog logs changes from newest to oldest.
+Flashing of Vendor image is required from this link: https://get.aosiprom.com/bullhead/vendor/OPM2.171019.029.img 
+The Updater might not work, if so please download the ROM from get.aosiprom.com/bullhead
+-----------------------------------------------------------------------------------------------------------
+------Device Specific------
+--vendor/lge changes--
+Add Google Camera as a Prebuilt
+Bullhead: Add Android O Apt-X Libs
+
+--kernel/lge/bullhead changes--
+Merge tag 'android-8.1.0_r0.42'
+
+--device/lge/bullhead changes--
+Bullhead: Add maintainer prop
+Merge tag 'android-8.1.0_r20'
+-----------------------------------------------------------------------------------------------------------
+------Common ROM changes------
+AsyncTask: Fix to remove canceled tasks from executor's queue	
+Fix a null pointer exception in FragmentManager			
+Remove duplicate code for binder ID clear and restore
+Synchronize the HeadsetService methods		
+ActivityStack: Add task null checker before proceeding			
+Accessibility: Fix FWR when unlinkToDeath if linkToDeath failed		
+ActivityManager: Change way to get Available memory			
+base: Use MethodHandles within the framework			
+Frameworks: Handle exceptions in SystemProperties callbacks		
+GLSurfaceView: report draw finished after first onDrawFrame in GLThread		
+core: Fix AccessibilityNodeInfo memory leak			
+Camera: allow camera to use power key as shutter			
+Fix subs msim exposure to work with system themes	
+base: Unbreak public API		
+LatinIME: support for incognito mode		
+LatinIME: sync and rebuild emojis		
+LainIME: add unicode 9.0 chars		
+LatinIME: Add shortcuts support		
+InputMethods: set the default value for preference		
+LatinIME: Add Bulgarian, Georgian and Ukrainian wordlists		
+Don't interrupt active gesture input by modifier key presses.	
+Add support for BÃ©po keyboard layou		
+make default overlay for "show correction suggestion"		
+LatinIME: Add Luxembourgish keyboard & spellchecking dictionary		
+LatinIME: Add support for Australian English		
+LatinIME: Enable Greek spell checking
+LatinIME: Enable spellchecker for additional languages		
+LatinIME: HU enable predictive dictionary and remove unused letters
+LatinIME: Regenerate KeyboardTextsTable
+manifest: track hals from Lineage
+audio_amplifier: add hooks for stream parameter manipulation	
+Resolve race condition of mNonAnimatableProperties.colorFilter
+Update whitelist when installing system application
+Allow ro. properties to have arbitrary lengths	
+Frameworks: Clean up SystemProperties
+base: Move theme related code to its own class
+OwlsNest: AccentPicker: cleanup a bit
+Automatic translation import 
+OwlsNest: Update some strings as suggested on crowdin 
+BatteryMeterDrawable: add landscape style (2/2) 
+BatteryMeterDrawable: add landscape style (1/2) 
+base: telephony: Add support for DC_HSPAP 
+Add README to document the communication with the server 
+Define the entire server URL as resource 
+Replace refresh dialog with icon animation 
+Handle install errors from onPayloadApplicationComplete() 
+Make updates world readable 
+Use single return statement in onStartCommand() 
+Prevent NPE on A/B devices 
+Clear NEEDS_REBOOT preference on reboot 
+Set status to INSTALLING when reconnecting to the service 
+Don't register multiple UpdateEngine callbacks 
+Remove duplicate INSTALLING notification 
+Updater: explicitly include android-support-transition 
+Statusbar battery text style: show a charging symbol near percentage 
+StatusBar: use one observer to handle all statusbar changes 
+Revert text bolt commits 
+InputMethodManagerService: adjust grip mode for input enable/disable 
+Fix broken input tests 
+Fix resampling for multiple pointers 
+Support UnifiedNlp (microG) 
+core: Add support for fake signatures, enabled per app by dynamic permission 
+Workaround perdev_minors path change in Linux 
+Themes: Add our BlackAF variant to styles(2/3) 
+Themes: Add our BlackAF variant to styles(3/3) 
+Themes:Add BlackAF option to themes QS tile 
+Themes: Add our BlackAF variant to styles(1/3) 
+Launcher3: Use dark theme for BlackAF 
+QS: add right/left padding even if it's 0 for collapsed statusbar 
+SystemUI: VoLIT 
+Support recents task locking 
+Update default wall to the new shits 
+SubscriptionInfoUpdater: Fix npe on few devices 
+SystemUI: Dividers begone! 
+Dialer Lookup [1/2] 
+Dialer: consolidate values files 
+Dialer Lookup [2/2] 
+Allow using private framework API. 
+Add some settings to backup 
+base: expanded desktop: fix for endless layout loop on keyguard 
+Remove Pocket Judge(2/3) 
+Remove Pocket Judge(1/3) 
+Remove Pocket Judge(3/3) 
+Theme VPN footer background color 
+Ensure that the settings icons are adapting to the accents 
+Remove janky elevation on the FAB 
+Changed background to white instead of the off gray color that was set 
+Improve the VPN footer layout 
+Expose and tint settings dashboard icon tint 
+Remove VoLTE flag from QS panel 
+Nest: Set recents bottom center fab to default(2/2) 
+base: Set recents bottom center fab to default(1/2) 
+Fix bolt not showing when charging with battery style text 
+About AOSiP: make title show in actionbar again 
+Settings: Add back AOSiP Device Maintainers 
+Replace fling QS tile with kronic vector 
+Themes: Let expanded desktop background follow light/dark 
+Fling kb cursors: long press left/right to keep moving cursor [1/2] 
+Fling kb cursors: long press left/right to keep moving cursor [2/2] 
+base: refine partial screenshot handling 
+base: Introduce SubstratumService 
+OMS: Add back overlay modified callback implementation 
+Extras: Add dynamic theme fonts support for O 
+OMS: StrictMode and files under /data/system/theme/ 
+Hold "volume up" during boot to disable all overlays 
+ThemeSafety: Introduce App Crash Intent 
+ApplicationsState: add filter for Substratum overlays [2/2] 
+Extras: Add dynamic theme sound effects support 
+Extras: Add dynamic theme shutdown and boot animation support 
+Settings: Introduce Substratum changes. 
+SELinux: added to the policies without entries into the compatibility mapping file 
+Initial sepolicy rules for substratum service 
+Introduce sepolicy exceptions for theme assets 
+build: Introduce SubstratumService 
