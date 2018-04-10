@@ -1,15 +1,37 @@
-Add maintainer prop in about phone
-Remove VoLTE from QS Panel
-Change VoLTE icon to VoLIT
-Update fling QS tile icon
-Add Black theme, cleanup some theme stuff
-Set bottom center as default FAB location for recents clear all
-Remove pocket judge
-Dialer lookup
-Support for MicroG
-Fix showing charging symbol in statusbar
-Updates to updater
-Updated translations
-Landscape battery style
-Updates to AOSP Keyboard
-April Patch
+ROM specific changelog
+- April security patch
+- Refine partial screenshot handling
+- Fling kb cursors: long press left/right to keep moving cursor
+- Let expanded desktop background follow light/dark	
+- Added maintainer prop in about phone
+- Replaced fling QS tile with kronic vector
+- About AOSiP: made title show in actionbar again
+- Set recents bottom center fab to default
+- Removed VoLTE flag from QS panel
+- Improved the VPN footer layout
+- Changed background to white instead of the off gray color in Contacts and Messaging
+- Removed Pocket Judge
+- Expanded desktop: fixed endless layout loop on keyguard
+- Dialer Lookup
+- SystemUI: Dividers begone!
+- SubscriptionInfoUpdater: Fixed npe on few devices
+- New default wallpaper
+- Support recents task locking
+- Change VoLTE status bar icon to VoLIT
+- QS: added right/left padding even if it's 0 for collapsed statusbar
+- Added BlackAF theme variant, cleanup some theme stuff
+- Added support for microG
+- Statusbar battery text style: show a charging symbol near percentage
+- Updater updates
+- BatteryMeterDrawable: added landscape style
+- AOSP Keyboard updates
+- Snap camera updates
+
+Device specific changelog
+- Switch back to Snap camera
+- Switched to Linaro GCC 7.2.1
+- Enabled full treble
+- Kernel upstreamed to 3.18.103
+- Merged the latest qcacld tag
+- Upstreamed CFQ I/O scheduler and use it as default
+- Removed underclock of little cores and raise the underclocked frequencies of big cores to 2073 MHz
