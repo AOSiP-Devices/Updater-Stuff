@@ -1,18 +1,91 @@
-Add maintainer prop in about phone
-Remove VoLTE from QS Panel
-Change VoLTE icon to VoLIT
-Update fling QS tile icon
-Add Black theme, cleanup some theme stuff
-Set bottom center as default FAB location for recents clear all
-Remove pocket judge
-Dialer lookup
-Support for MicroG
-Fix showing charging symbol in statusbar
-Updates to updater
-Updated translations
-Landscape battery style
-Updates to AOSP Keyboard
-Added back Snap camera
-Updates from LineageOS tree
-Latest Caesium Kernel
-April Patch
+ mata: switch to aosip gapps
+ Camera: Force HAL1 for predefined package list.
+ mata: Pin graphics stack from OPM1.170911.254
+ Revert "mata:overlay: Enable grip mode adjustments for IME"
+ mata:libhidl: add the rest of the dummy libs
+ mata: Pin graphics stack from OPM1.170911.254
+ mata: Wait for kernel driver to be ready
+ mata:devicesettings: fix build and add needed depends
+ mata: Switch to BOARD_VNDK_VERSION=current
+ mata: Add device settings for touchscreen
+ Add large battery icon [2/2]
+ Statusbar left clock: add start padding
+ BatteryMeterView: add large icon option [1/2]
+ common: Remove stale ntfs genfscon policy
+ Add option to scramble PIN layout when unlocking [2/2]
+ wifidisplay: Modify WifiDisplayController
+ wifidisplay: Use ExtendedRemoteDisplay to launch Wifi Display.
+ Add option to scramble PIN layout when unlocking [1/2]
+ Frameworks: Fix Binder.joinThreadPool
+ Skype voice can't transfer to carkit after re-connection
+ media: Parse Exif OffsetTime in MediaScanner
+ SystemUI: modify overscroll bug in NotificationStackScrollLayout
+ Ensure Recents FAB respects RTL
+ NetworkDiagnostics: switch to Cloudflare DNS
+ Use Cloudflare DNS servers as hints
+ Use Cloudflare DNS servers as defaults for tethering
+ Use Cloudflare DNS as the default fallback
+ Fix text cutting off during shutdown animation
+ Statusbar net monitor: stop the handler if screen is off
+ cheeseburger: Set matching build fingerprint for system, vendor and boot images
+ cheeseburger: require at least 5.0.4 firmware
+ cheeseburger: use fingerprint from 5.0.4
+ msm8998-common: Convert lights HAL into a native binderized HAL
+ msm8998: Remove camera provider HAL fork
+ msm8998-common: PocketMode: Remove useless cast
+ msm8998: import thermal hal from LA.UM.6.4.r1-07600-8x98.0
+ msm8998: import vr hal from LA.UM.6.4.r1-07600-8x98.0
+ Ramdisk: Supply power to USB-OTG
+ AboutAOSiP: Remove Branden as he seems to be rip
+ Fix some refresh issues when changing an overlay
+ Dialer: InCallUI: Enable Sustained Performance Mode
+ KillApp action: use SystemUI toast theme
+ mata: Update blobs to OPM1.180104.092
+ Themes: Use accent color for collapsed suggestion text
+ core: load ro.control_privapp_permissions from /system
+ base: SystemUI: center roaming indicator correctly
+ base: SystemUI: qs bottom bar - stop triggering my OCD
+ Replace some paddings with margings in the preferences
+ mata: Update radio system properties
+ mata: Remove non-existent services
+ mata: Don't generate unnecessary make entries
+ mata: Switch to prebuilt GPS stack
+ mata: Use proprietary file listing from OPM1.180104.092
+ build: allow forcing build of otatools
+ core: include vendor_buildinfo.sh when TARGET_COPY_OUT_VENDOR=system
+ core: Dont overwrite build.prop when TARGET_COPY_OUT_VENDOR=system
+ Install (vendor|system/vendor)/build.prop always
+ Fix SQLiteDiskIOException
+ op3: Override vendor build fingerprint and use new helper function
+ op3: init: Handle overriding system and vendor props
+ vendor: Fix updater themes
+ Updater: Fix for our theming
+ gen-keystore.sh: Don't pass the passwords as args
+ Detect update failures
+ Updater: show settings in a proper preferences dialog
+ Always show the size of the updates
+ Updater: Minor UI improvements
+ Updater: Support Dark mode and update colors
+ Updater: Use popup menu instead of ActionMode
+ Simplify code syntax using Java 8 features
+ Get file size from JSON
+ Print stack trace if the JSON could not be parsed
+ Updater: Fix Android Studio build
+ mata: Move Score and linked files to vendor
+ mata: Remove unlinked files
+ mata: Build a system version of android.hidl.base@1.0 for imsvt
+ mata: Update aux camera whitelist property
+ mata: Move device specific properties to vendor_prop.mk
+ mata: Move score and associated files to vendor
+ mata: Update fingerprint to OPM1.180104.141/272
+ mata: Remove unlinked blobs
+ mata: Move sysconfig XMLs to vendor
+ mata: Build textclassifier's smart selection
+ Track los libtextclassifier
+ Fix always-on VPN sync problem
+ op3: PocketMode: Remove useless cast
+ op3: Doze: Minor code simplification and clean up
+ updater: app: try something
+ Include the size of the update in the response
+ base: Squash revert recent system.prop related changes
+ Revert "base: Use MethodHandles within the framework"

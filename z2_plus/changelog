@@ -1,37 +1,91 @@
-ROM specific changelog
-- April security patch
-- Refine partial screenshot handling
-- Fling kb cursors: long press left/right to keep moving cursor
-- Let expanded desktop background follow light/dark	
-- Added maintainer prop in about phone
-- Replaced fling QS tile with kronic vector
-- About AOSiP: made title show in actionbar again
-- Set recents bottom center fab to default
-- Removed VoLTE flag from QS panel
-- Improved the VPN footer layout
-- Changed background to white instead of the off gray color in Contacts and Messaging
-- Removed Pocket Judge
-- Expanded desktop: fixed endless layout loop on keyguard
-- Dialer Lookup
-- SystemUI: Dividers begone!
-- SubscriptionInfoUpdater: Fixed npe on few devices
-- New default wallpaper
-- Support recents task locking
-- Change VoLTE status bar icon to VoLIT
-- QS: added right/left padding even if it's 0 for collapsed statusbar
-- Added BlackAF theme variant, cleanup some theme stuff
-- Added support for microG
-- Statusbar battery text style: show a charging symbol near percentage
-- Updater updates
-- BatteryMeterDrawable: added landscape style
-- AOSP Keyboard updates
-- Snap camera updates
-
-Device specific changelog
-- Switch back to Snap camera
-- Switched to Linaro GCC 7.2.1
-- Enabled full treble
-- Kernel upstreamed to 3.18.103
-- Merged the latest qcacld tag
-- Upstreamed CFQ I/O scheduler and use it as default
-- Removed underclock of little cores and raise the underclocked frequencies of big cores to 2073 MHz
+ mata: switch to aosip gapps
+ Camera: Force HAL1 for predefined package list.
+ mata: Pin graphics stack from OPM1.170911.254
+ Revert "mata:overlay: Enable grip mode adjustments for IME"
+ mata:libhidl: add the rest of the dummy libs
+ mata: Pin graphics stack from OPM1.170911.254
+ mata: Wait for kernel driver to be ready
+ mata:devicesettings: fix build and add needed depends
+ mata: Switch to BOARD_VNDK_VERSION=current
+ mata: Add device settings for touchscreen
+ Add large battery icon [2/2]
+ Statusbar left clock: add start padding
+ BatteryMeterView: add large icon option [1/2]
+ common: Remove stale ntfs genfscon policy
+ Add option to scramble PIN layout when unlocking [2/2]
+ wifidisplay: Modify WifiDisplayController
+ wifidisplay: Use ExtendedRemoteDisplay to launch Wifi Display.
+ Add option to scramble PIN layout when unlocking [1/2]
+ Frameworks: Fix Binder.joinThreadPool
+ Skype voice can't transfer to carkit after re-connection
+ media: Parse Exif OffsetTime in MediaScanner
+ SystemUI: modify overscroll bug in NotificationStackScrollLayout
+ Ensure Recents FAB respects RTL
+ NetworkDiagnostics: switch to Cloudflare DNS
+ Use Cloudflare DNS servers as hints
+ Use Cloudflare DNS servers as defaults for tethering
+ Use Cloudflare DNS as the default fallback
+ Fix text cutting off during shutdown animation
+ Statusbar net monitor: stop the handler if screen is off
+ cheeseburger: Set matching build fingerprint for system, vendor and boot images
+ cheeseburger: require at least 5.0.4 firmware
+ cheeseburger: use fingerprint from 5.0.4
+ msm8998-common: Convert lights HAL into a native binderized HAL
+ msm8998: Remove camera provider HAL fork
+ msm8998-common: PocketMode: Remove useless cast
+ msm8998: import thermal hal from LA.UM.6.4.r1-07600-8x98.0
+ msm8998: import vr hal from LA.UM.6.4.r1-07600-8x98.0
+ Ramdisk: Supply power to USB-OTG
+ AboutAOSiP: Remove Branden as he seems to be rip
+ Fix some refresh issues when changing an overlay
+ Dialer: InCallUI: Enable Sustained Performance Mode
+ KillApp action: use SystemUI toast theme
+ mata: Update blobs to OPM1.180104.092
+ Themes: Use accent color for collapsed suggestion text
+ core: load ro.control_privapp_permissions from /system
+ base: SystemUI: center roaming indicator correctly
+ base: SystemUI: qs bottom bar - stop triggering my OCD
+ Replace some paddings with margings in the preferences
+ mata: Update radio system properties
+ mata: Remove non-existent services
+ mata: Don't generate unnecessary make entries
+ mata: Switch to prebuilt GPS stack
+ mata: Use proprietary file listing from OPM1.180104.092
+ build: allow forcing build of otatools
+ core: include vendor_buildinfo.sh when TARGET_COPY_OUT_VENDOR=system
+ core: Dont overwrite build.prop when TARGET_COPY_OUT_VENDOR=system
+ Install (vendor|system/vendor)/build.prop always
+ Fix SQLiteDiskIOException
+ op3: Override vendor build fingerprint and use new helper function
+ op3: init: Handle overriding system and vendor props
+ vendor: Fix updater themes
+ Updater: Fix for our theming
+ gen-keystore.sh: Don't pass the passwords as args
+ Detect update failures
+ Updater: show settings in a proper preferences dialog
+ Always show the size of the updates
+ Updater: Minor UI improvements
+ Updater: Support Dark mode and update colors
+ Updater: Use popup menu instead of ActionMode
+ Simplify code syntax using Java 8 features
+ Get file size from JSON
+ Print stack trace if the JSON could not be parsed
+ Updater: Fix Android Studio build
+ mata: Move Score and linked files to vendor
+ mata: Remove unlinked files
+ mata: Build a system version of android.hidl.base@1.0 for imsvt
+ mata: Update aux camera whitelist property
+ mata: Move device specific properties to vendor_prop.mk
+ mata: Move score and associated files to vendor
+ mata: Update fingerprint to OPM1.180104.141/272
+ mata: Remove unlinked blobs
+ mata: Move sysconfig XMLs to vendor
+ mata: Build textclassifier's smart selection
+ Track los libtextclassifier
+ Fix always-on VPN sync problem
+ op3: PocketMode: Remove useless cast
+ op3: Doze: Minor code simplification and clean up
+ updater: app: try something
+ Include the size of the update in the response
+ base: Squash revert recent system.prop related changes
+ Revert "base: Use MethodHandles within the framework"
