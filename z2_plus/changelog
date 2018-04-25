@@ -1,31 +1,31 @@
 ROM specific changelog
-- Fixed always-on VPN sync problem
-- Updater updates
-- Fixed the alarm icon paddings on qs bottom bar
-- Fixed the roaming indicator paddings on status bar
-- Dialer: InCallUI: Enabled Sustained Performance Mode
-- Fixed some refresh issues when changing an overlay
-- Enabled Cloudflare DNS servers by default
-- Ensured that Recents FAB respects RTL
-- Added option to scramble PIN layout when unlocking
-- WifiDisplay improvements
-- BatteryMeterView: added large icon option
-- Statusbar left clock: added start padding
-- Minor bug fixes and translation updates
+- Light navigationbar in MusicFX & DocumentsUI
+- DocumentsUI: internal storage by default
+- Option to toggle data disabled indicator icon
+- manifest: Track our own clang (7.0.1)
+- apn: Add APN for spusu MVNO
+- apn: Add protocol for fido and rogers
+- Generation of dummy hidl.base is reverted
+- The commit "framework: fix screenshot and rotation animation for devices with abnormal hw rotation" was reverted and the fix was made at surfaceflinger layer
+- Various vendor updates from lineage
+- linker: Move shims to TARGET_LD_SHIM_LIBS
+- Fixed unusable MTP and adb after boot
+- manifest: track qcom_power and rest of the hals from lineage
+- Statusbar center clock
+- Made status bar ticker play nice with center clock
+- Added footer preference for flawed center clock 
+- Let the users know where QS row/column options are
+- Minor bug fixes & translation updates
 
 Device specific changelog
-- Fixed VoLTE
-- Enabled interaction boost
-- Changed default hotspot name
-- Back to default screen off timeout (1 minute) instead of 4 minutes
-- Enabled HVX neuralnetworks HAL
-- Updated perf and graphics stacks from LA.UM.6.5.r1-06700-8x96.0
-- Unpin Vulkan blob as we have a more recent build than op3 for these blobs
-- Updated bluetooth, gatekeeper, drm, qsee, keystore
-- Renamed /factory to /vendor and use the correct label
-- Removed cpu underclock
-- Upstreamed to 3.18.105
-- Latest caf and qcacld tags merged
-- Added fsync on/off toggle
-- Cpufreq, sched, mm/slab, binder, ext4, timekeeping, cpuidle commits and touchboost fix from OP3 Caesium kernel
-- RCU and cpu-boost commits from OP3 flash kernel
+- Fix more SELinux denials
+- Move thermal-engine.conf (taken from zui 3.5) to vendor
+- Cleanup of vendor blobs
+- Updated qti-telephony-common.jar from gemini
+- Kernel rebased over cosmedd's kernel so vendor mismatch error is fixed
+- Added wireguard support
+
+Head over to https://goo.gl/9izemi to download the updated kernel:
+- Upstreamed to 3.18.106
+- Dynamic fsync by Lord Boeffla (off by default) instead of fsync
+- Finally fixed the touchboost bug
