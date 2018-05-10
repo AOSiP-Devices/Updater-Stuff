@@ -1,42 +1,32 @@
-OwlsNest: String cleanup
-Revert "Check VintfObject compatibility on boot"
-berkeley: Enable Camera App pinning
-SystemUI: Remove QS corner padding
-update_attempter: don't limit the cpu and run in foreground
-base: catch what you can't explain
-surfaceflinger: fix static analyzer complaints
-libstagefright: Add more sample rates for FLAC
-Speed more things up
-Remove all delays on showing task header icons
-Speed things up
-SystemUI: Rotation button can't work at first time after rotate screen
-Fix Access modifiers as part of extending ServicestateTracker.
-Fix misc-macro-parentheses warnings in system/nfc.
-Triple the available egl function pointers available to a process for certain Nvidia devices.
-Handle glGetString returning NULL
-init: Don't run update_sys_usb_config if /data isn't mounted
-init: do not load persistent properties from temporary /data
-sepolicy: qcom: Allow nfc to read and execute files in /vendor on full treble
-Revert "sepolicy: suppress denial logspam"
-Add Nvidia enhancements soong flag
-vendor/aosip: qcom: Enable media extensions for all QC devices
-ThemeUtils: fix grey accent
-Add a script to push updates
-SystemUI: stop crashing qs tiles during boot
-Smart Pixels: Dynamically register receiver
-Always refresh system apps launcher shortcuts on build date change
-Refresh search index check on build change
-Allow to properly translate the download ETA string
-Append random ID to temporary json file names
-Use a determinate progressbar while installing A/B updates
-Updater: Build with AAPT2
-AOSiP: Add tissot
-Automatic translation import
-Automatic translation import
-Automatic translation import
-Automatic translation import
-Automatic translation import
-Automatic translation import
-Automatic translation import
-Automatic translation import
-May Patch merged
+ROM specific changelog
+- Merged May security patch
+- Themes: Make QS VPN background follow themes
+- Updater updates
+- Sepolicy updates
+- Add additional battery saver steps
+- Set text color to white for ambient battery display
+- DUI Fling: allow to reset options and save/restore actions profile
+- Screen off skip track: add Spotify/kdeconn./others remote session compatibility
+- Skip track remote compatibility: fixes and improvements
+- Smartbar skip track arrows: add remote session compatibility
+- Fix NPE with locked tasks
+- Kill net stats logspam
+- apn: Update APNs for MetroPCS
+- Toast icon switch
+- Gallery app updates
+- Fix QS tile NPEs
+- Translation updates
+- ThemeUtils: fix grey accent
+- Speed things up
+- SystemUI: Rotation button can't work at first time after rotate screen
+- SystemUI: Remove QS corner padding
+- OwlsNest: String cleanup
+
+Device specific changelog
+- Switched to reworked treble trees by davidevinavil
+- Kernel is now compiled with Clang 7.0.1
+- O3 optimizations
+- Switched to updated nougat camera stack by Star_king12
+- Upstreamed to 3.18.108
+- Hopefully fixed Speaker gain
+- Added back Maple I/O scheduler
