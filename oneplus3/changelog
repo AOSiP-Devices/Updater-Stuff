@@ -1,42 +1,21 @@
-OwlsNest: String cleanup
-Revert "Check VintfObject compatibility on boot"
-berkeley: Enable Camera App pinning
-SystemUI: Remove QS corner padding
-update_attempter: don't limit the cpu and run in foreground
-base: catch what you can't explain
-surfaceflinger: fix static analyzer complaints
-libstagefright: Add more sample rates for FLAC
-Speed more things up
-Remove all delays on showing task header icons
-Speed things up
-SystemUI: Rotation button can't work at first time after rotate screen
-Fix Access modifiers as part of extending ServicestateTracker.
-Fix misc-macro-parentheses warnings in system/nfc.
-Triple the available egl function pointers available to a process for certain Nvidia devices.
-Handle glGetString returning NULL
-init: Don't run update_sys_usb_config if /data isn't mounted
-init: do not load persistent properties from temporary /data
-sepolicy: qcom: Allow nfc to read and execute files in /vendor on full treble
-Revert "sepolicy: suppress denial logspam"
-Add Nvidia enhancements soong flag
-vendor/aosip: qcom: Enable media extensions for all QC devices
-ThemeUtils: fix grey accent
-Add a script to push updates
-SystemUI: stop crashing qs tiles during boot
-Smart Pixels: Dynamically register receiver
-Always refresh system apps launcher shortcuts on build date change
-Refresh search index check on build change
-Allow to properly translate the download ETA string
-Append random ID to temporary json file names
-Use a determinate progressbar while installing A/B updates
-Updater: Build with AAPT2
-AOSiP: Add tissot
-Automatic translation import
-Automatic translation import
-Automatic translation import
-Automatic translation import
-Automatic translation import
-Automatic translation import
-Automatic translation import
-Automatic translation import
-May Patch merged
+June security patch
+Blacklist apps in the ChooserAcitivity (e.g. Share button)
+ChooserActivity: Fix a potential System FC
+Use Auto brightness for Ambient Display
+Show proper call duration
+Switched In-call Vibration method(works with aosp and google now)
+Restored settings margin padding as intended by google
+Remove QQS tile scroll and left clock
+SystemUI: Enable dualTarget on CellularTile
+per-app cellular data and wifi restrictions
+Don't append app name to file on lockscreen
+Add an option to force pre-O apps to use full screen aspect ratio
+Disable navbar on fingerprint enroll if bottom fingerprint
+Multi-User fixes
+Recents: add pinch-in gesture on tasks to Clear All
+Allow to disable the Wallpaper tint
+Introduce lockscreen clock/date styles
+systemui: Forward-port notification counters
+Change messaging accent with our accent picker
+Theme uninstall dialog
+many misc updates

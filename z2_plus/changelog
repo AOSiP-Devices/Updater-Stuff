@@ -1,32 +1,21 @@
-ROM specific changelog
-- Merged May security patch
-- Themes: Make QS VPN background follow themes
-- Updater updates
-- Sepolicy updates
-- Add additional battery saver steps
-- Set text color to white for ambient battery display
-- DUI Fling: allow to reset options and save/restore actions profile
-- Screen off skip track: add Spotify/kdeconn./others remote session compatibility
-- Skip track remote compatibility: fixes and improvements
-- Smartbar skip track arrows: add remote session compatibility
-- Fix NPE with locked tasks
-- Kill net stats logspam
-- apn: Update APNs for MetroPCS
-- Toast icon switch
-- Gallery app updates
-- Fix QS tile NPEs
-- Translation updates
-- ThemeUtils: fix grey accent
-- Speed things up
-- SystemUI: Rotation button can't work at first time after rotate screen
-- SystemUI: Remove QS corner padding
-- OwlsNest: String cleanup
-
-Device specific changelog
-- Switched to reworked treble trees by davidevinavil
-- Kernel is now compiled with Clang 7.0.1
-- O3 optimizations
-- Switched to updated nougat camera stack by Star_king12
-- Upstreamed to 3.18.108
-- Hopefully fixed Speaker gain
-- Added back Maple I/O scheduler
+June security patch
+Blacklist apps in the ChooserAcitivity (e.g. Share button)
+ChooserActivity: Fix a potential System FC
+Use Auto brightness for Ambient Display
+Show proper call duration
+Switched In-call Vibration method(works with aosp and google now)
+Restored settings margin padding as intended by google
+Remove QQS tile scroll and left clock
+SystemUI: Enable dualTarget on CellularTile
+per-app cellular data and wifi restrictions
+Don't append app name to file on lockscreen
+Add an option to force pre-O apps to use full screen aspect ratio
+Disable navbar on fingerprint enroll if bottom fingerprint
+Multi-User fixes
+Recents: add pinch-in gesture on tasks to Clear All
+Allow to disable the Wallpaper tint
+Introduce lockscreen clock/date styles
+systemui: Forward-port notification counters
+Change messaging accent with our accent picker
+Theme uninstall dialog
+many misc updates
