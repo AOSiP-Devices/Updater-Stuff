@@ -1,21 +1,13 @@
-June security patch
-Blacklist apps in the ChooserAcitivity (e.g. Share button)
-ChooserActivity: Fix a potential System FC
-Use Auto brightness for Ambient Display
-Show proper call duration
-Switched In-call Vibration method(works with aosp and google now)
-Restored settings margin padding as intended by google
-Remove QQS tile scroll and left clock
-SystemUI: Enable dualTarget on CellularTile
-per-app cellular data and wifi restrictions
-Don't append app name to file on lockscreen
-Add an option to force pre-O apps to use full screen aspect ratio
-Disable navbar on fingerprint enroll if bottom fingerprint
-Multi-User fixes
-Recents: add pinch-in gesture on tasks to Clear All
-Allow to disable the Wallpaper tint
-Introduce lockscreen clock/date styles
-systemui: Forward-port notification counters
-Change messaging accent with our accent picker
-Theme uninstall dialog
-many misc updates
+ROM specific Changelog
+- Jelly browser and Launcher app updates
+- Added back compass, music, and cpuinfo tiles
+- Lockscreen Clock improvements
+- Smartbar: keep pressing on ime arrows to move kb cursor
+- Ambient Music Ticker improvements
+- Disabled less-boring headsup by default
+- Disabled lauching music app on headset connect by default
+- Wakelock Blocker
+- Alarms Blocker
+- Added setting to enable Do Not Disturb during calls
+- Statusbar brightness control
+- Grid and Go Recents layout
