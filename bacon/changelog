@@ -1,0 +1,13 @@
+ROM specific Changelog
+- Jelly browser and Launcher app updates
+- Added back compass, music, and cpuinfo tiles
+- Lockscreen Clock improvements
+- Smartbar: keep pressing on ime arrows to move kb cursor
+- Ambient Music Ticker improvements
+- Disabled less-boring headsup by default
+- Disabled lauching music app on headset connect by default
+- Wakelock Blocker
+- Alarms Blocker
+- Added setting to enable Do Not Disturb during calls
+- Statusbar brightness control
+- Grid and Go Recents layout
