@@ -1,19 +1,26 @@
-ROM specific Changelog
-- Jelly browser and Launcher app updates
-- Added back compass, music, and cpuinfo tiles
-- Lockscreen Clock improvements
-- Smartbar: keep pressing on ime arrows to move kb cursor
-- Ambient Music Ticker improvements
-- Disabled less-boring headsup by default
-- Disabled lauching music app on headset connect by default
-- Wakelock Blocker
-- Alarms Blocker
-- Added setting to enable Do Not Disturb during calls
-- Statusbar brightness control
-- Grid and Go Recents layout
-
-Device specific changelog
-- Updated thermal-config from ZUI 3.7.033
-- Kernel reworked once again,
-  Fixed performance issues & slow installation of apps
-  Upstreamed to 3.18.113, merged latest caf and qcacld tags
+Fix notification volume unlink
+Make pin scramble layout MultiUser friendly
+Fix left clock glitch on landscape
+Fix statusbar battery icon, VPN icon, network traffic monitor tints
+Redo Grid and Go recents
+Expose QS tiles and label colors
+Add deep night clock
+Improve a calculation method for LTE antenna reception level
+Revert "telephony: Hack GSM and LTE signal strength"
+Check for Face Unlock Running before skipping bouncer
+bionic: Sort and cache hosts file data for fast lookup
+Update linker/shim commits
+Ensure that locked recents apps are respected
+Allow to kill any app from recents panel in a safe way
+Restore notification dividers
+Revert "frameworks: Fixed signal strength issue"
+Revert "frameworks: Fix mLteSignalStrength range check"
+Fix CustomTile NPE in handleRefreshState
+Update screenshot tile have three-fingers-swipe and power menu screenshots follow the mode set in the tile
+Cleanup ambient music ticker
+Sensor block per-package switch
+Remove useless dream manager isDozing check
+Jelly: Adapt ProgressBar location based on reach mode
+Statusbar brightness control
+Add setting to enable Do Not Disturb during calls
+Miscellaneous MediaProvider updates
