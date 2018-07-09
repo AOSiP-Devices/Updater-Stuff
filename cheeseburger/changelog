@@ -1,26 +1,45 @@
-Fix notification volume unlink
-Make pin scramble layout MultiUser friendly
-Fix left clock glitch on landscape
-Fix statusbar battery icon, VPN icon, network traffic monitor tints
-Redo Grid and Go recents
-Expose QS tiles and label colors
-Add deep night clock
-Improve a calculation method for LTE antenna reception level
-Revert "telephony: Hack GSM and LTE signal strength"
-Check for Face Unlock Running before skipping bouncer
-bionic: Sort and cache hosts file data for fast lookup
-Update linker/shim commits
-Ensure that locked recents apps are respected
-Allow to kill any app from recents panel in a safe way
-Restore notification dividers
-Revert "frameworks: Fixed signal strength issue"
-Revert "frameworks: Fix mLteSignalStrength range check"
-Fix CustomTile NPE in handleRefreshState
-Update screenshot tile have three-fingers-swipe and power menu screenshots follow the mode set in the tile
-Cleanup ambient music ticker
-Sensor block per-package switch
-Remove useless dream manager isDozing check
-Jelly: Adapt ProgressBar location based on reach mode
-Statusbar brightness control
-Add setting to enable Do Not Disturb during calls
-Miscellaneous MediaProvider updates
+Cache the global proxy to avoid fetching it for every request
+Cache pin algorithms in PinSet
+Hide freeform task header icon
+Send broadcast to MediaScannerReceiver to refresh gallery
+Don't update if HeadsUp is disabled
+SystemUI: CellularTile: Don't call showDetail() when device is locked
+Allow details view for Cellular tile when tile title is disabled
+Add a ripple effect to the power menu items
+Use bool var judge whether the navi-keys enabled
+Prevent sending intent while orientation change.
+App notification config reset should also reset legacy notification channel
+Fix crash issue when user uses multi-window mode on WifiCallingSettings
+Settings is crashed high probability when doing follow steps
+Fix memory leak of page "Languages & input"
+Disable misleading indexer messages
+SimSettings: Fix preferred calls sim not being disabled
+Long press QS settings for OwlsNest
+Split calendar from clock in qs footer
+Automatic translation import
+Fix killapp button animation overlapping
+Quick statusbar tiles header: expand panel on longpress for details view
+Update kill app icon
+CPUInfoTile: Fixes and improvements
+Smartbar: new button vectors
+overlay: remove useless navbar icons overlays
+themes: blackaf/dark: remove app dividers
+OwlsNest: don't use sliding pager for categories which have only one page
+Fling reset button: more fixes
+DUI: Update reset smartbar/fling options
+Custom seekbar pref: allow to refresh values
+Fix FC for Fling when unpinning an app
+Pulse: don't lose color when changing render mode
+Pulse fading blocks render: use more visible colors
+Fix lastapp action going to homescreen when no default launcher is set
+DUI: Turn on Expanded Desktop action
+DUI: Add Google Sound Search action
+MusicFX: explicitly include android-support-transition
+SystemUI: explicitly include java support libs
+Updater: Move battery level check to UpdatesListAdapter
+         Requre a minimum remaining battery capacity to install updates
+         Minor app notification improvements
+Show in app reboot button
+Sprint: use "oap7.sprintpcs.com" for the mmsproxy
+Disable volume adjust tone by default
+Add more Lockscreen Date Styles
