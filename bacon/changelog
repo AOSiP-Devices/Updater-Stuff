@@ -1,7 +1,32 @@
-This update is minimal, there's very few changes.
+Sorry for the long wait, but we wanted to have something big enough for a changelog!
+So here it is:-
 
-- Fixup some SystemUI/Settings exposures for substratum themes
-- Translation updates from crowdin
-- Fix some string typos in OwlsNest
-- General updates
-- Ask your maintainer about any device-specific changes
+- Merged in August Security patches.
+- Switched to LineageOS Gallery App
+- Updated default APN list
+- Updated translations
+- A new bootanimation, by moelle
+- Disable lauching music app on connection of a headset by default
+- Set the user's chosen data sim back upon hotswapping a sim
+- OwlsNest - redo a few small things
+- Updates to Updater (from LineageOS)
+- Settings: Add platform and RAM to "Model & Hardware" dialogue
+- SystemUI: Added animation of switching between the power menu and the extended power menu
+- Dialer: Be more consistent, change CheckBoxes to Switches like how it is in other places
+          FAB now scales proper in multiwindowed mode
+- SystemUI: Add a long click function for calendar/clock in qs footer
+- Added LTE QS Tile
+- Blockers: Add some annoying wakelock and alarms
+- Screenrecord: Improvements for notification
+- SystemUI: Toggle USB tethering only when USB is connected
+- SignalClusterView: Hide signal icons for disabled SIMs
+- Keyguard: Remove carrier text for disabled SIMs
+- Proper supplementary service notification handling
+- Themes: fix vpn status dialog
+- SystemUI: Fix task lock & freeform buttons placement
+- SystemUI: Fix title text clipping when task lock button is visible
+- Add camera key long press handling
+- Telecomm: adaptive icon
+
+There are other miscellaneous updates too, not listed here.
+You can ask your maintainer about device specific changes.
