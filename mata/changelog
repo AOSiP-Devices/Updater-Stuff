@@ -1,6 +1,3 @@
-- Battery mode color disable
-- Fixed navbar switch shit
-- Updated Launcher3
-- Removed some random shit
-- Translation updates
-- Miscellaneous updates, ask your maintainer for device specific changes.
+Merged in September Security patch
+Updated translations
+Fixed navbar/statusbar icons when powersave enabled
