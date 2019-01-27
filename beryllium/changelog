@@ -1,3 +1,5 @@
+You'll need to be on atleast 9.1.17 firmware to be able to flash this
+
 Includes latest Derp
 Add option to change position of date in statusbar
 Launcher3 Updates
@@ -26,3 +28,4 @@ Fix hide power on lockscreen not toggling properly
 Expose lockdown power menu item
 Remove Advanced power menu item in battery info page (the three dots)
 Automatic translation imports and fixes
+

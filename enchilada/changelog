@@ -1,4 +1,11 @@
-Includes latest Derp
+CLEAN FLASH IS MANDATORY!!!
+Official Release!
+Fix Google Pay
+Fix idle drain
+Upstreamed kernel to 4.9.153
+Merged latest RenderZenith changes
+Some SEPolicy fixes
+Camera HAL fixes
 Add option to change position of date in statusbar
 Launcher3 Updates
 - Update GFeed lib from Pixel 3 Launcher
@@ -26,3 +33,5 @@ Fix hide power on lockscreen not toggling properly
 Expose lockdown power menu item
 Remove Advanced power menu item in battery info page (the three dots)
 Automatic translation imports and fixes
+Switch to Official Updater channel
+Fix data icon disappearing from Statusbar
