@@ -1,0 +1,33 @@
+Official release
+Includes latest Derp
+Fixed SafetyNet fail
+Add option to change position of date in statusbar
+Launcher3 Updates
+- Update GFeed lib from Pixel 3 Launcher
+- Add QuickSearchBar to hotseat and app drawer
+- Use dark search bar when dark theme is set and remove ripple
+- Remove hint text from search bar
+- Disable top search bar
+- Fix hide apps menu glitches
+- Hide drag arrow
+- Add more gestures
+- Fix theme glitches with system dark/light
+- Add more icon sizes
+- Fix searchbar when GFeed is disabled
+Fix some apps displaying weirdly when landscape
+Disable binder proxy
+Ambient music ticker fixes and improvements
+Add flashlight blink on incoming calls
+Workaround to fix dark theme in Google Messages app
+Fix notificaation channel text colour in dark theme
+Lock day/night mode
+Display battery temperature in Battery settings page
+Expose power menu items for Substratum themers and our inbuilt themer
+Night light brightness mode options
+Fix hide power on lockscreen not toggling properly
+Expose lockdown power menu item
+Remove Advanced power menu item in battery info page (the three dots)
+Automatic translation imports and fixes
+Dirac sound enhancer
+Pixel navigation bar animation (and you can even disable it)
+
