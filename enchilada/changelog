@@ -1,37 +1,33 @@
-CLEAN FLASH IS MANDATORY!!!
-Official Release!
-Fix Google Pay
-Fix idle drain
-Upstreamed kernel to 4.9.153
-Merged latest RenderZenith changes
+20190202 Build
+
+Upstream kernel to 4.9.154
+Add a Magisk executable script to utilise the complete capability of the kernel
+Fix timings of the non-Magisk ramdisk for efficient apply of values
+Allow sensors to access /dev/sensors
+Some netmgrd fixes
 Some SEPolicy fixes
-Camera HAL fixes
-Add option to change position of date in statusbar
-Launcher3 Updates
-- Update GFeed lib from Pixel 3 Launcher
-- Add QuickSearchBar to hotseat and app drawer
-- Use dark search bar when dark theme is set and remove ripple
-- Remove hint text from search bar
-- Disable top search bar
-- Fix hide apps menu glitches
-- Hide drag arrow
-- Add more gestures
-- Fix theme glitches with system dark/light
-- Add more icon sizes
-- Fix searchbar when GFeed is disabled
-Fix some apps displaying weirdly when landscape
-Disable binder proxy
-Ambient music ticker fixes and improvements
-Add flashlight blink on incoming calls
-Workaround to fix dark theme in Google Messages app
-Fix notificaation channel text colour in dark theme
-Lock day/night mode
-Display battery temperature in Battery settings page
-Expose power menu items for Substratum themers and our inbuilt themer
-Night light brightness mode options
-Fix hide power on lockscreen not toggling properly
-Expose lockdown power menu item
-Remove Advanced power menu item in battery info page (the three dots)
-Automatic translation imports and fixes
-Switch to Official Updater channel
-Fix data icon disappearing from Statusbar
+Expose hardcoded colour in Storage Summary Settings page
+Fix icon tinting in power details page
+Add animation slider to developer options instead of fixed values (0.1x accuracy)
+Fix disappearing home/recents button
+Fix behaviour of lockscreen bounce in an egde case
+Some performance improvements to Window Manager
+Fix memory leak in Input Method Manager
+Fix cases when activities refuse to enter PiP mode
+Some QSTile fixes
+Performance improvements in Resolver Activity
+Some crashes have been addressed
+Fix check for lockscreen in edge gestures
+Fix unlinked ringtone and notification volume panel
+Fix LED Light not showing for some apps like Dialer
+Ensure battery temperature preference is always updated
+Make sure settings shortcut icons follow system accent
+Fix soft-reboot when AlarmManagerService is called
+Fix network traffic indicators not hiding on lost connection
+Optimize background activity of network traffic indicators
+Launcher3 Updates:
+ - Add option to allow app names to be 2 lines
+ - Add option to lock desktop layout
+ - Remove widget and foldername edit buttons when desktop is locked
+ - Minor hotseat icon fixes
+ - Add swipe-up gesture
