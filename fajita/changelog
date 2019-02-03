@@ -1,0 +1,33 @@
+20190202 Build
+
+Upstream kernel to 4.9.154
+Add a Magisk executable script to utilise the complete capability of the kernel
+Fix timings of the non-Magisk ramdisk for efficient apply of values
+Allow sensors to access /dev/sensors
+Some netmgrd fixes
+Some SEPolicy fixes
+Expose hardcoded colour in Storage Summary Settings page
+Fix icon tinting in power details page
+Add animation slider to developer options instead of fixed values (0.1x accuracy)
+Fix disappearing home/recents button
+Fix behaviour of lockscreen bounce in an egde case
+Some performance improvements to Window Manager
+Fix memory leak in Input Method Manager
+Fix cases when activities refuse to enter PiP mode
+Some QSTile fixes
+Performance improvements in Resolver Activity
+Some crashes have been addressed
+Fix check for lockscreen in edge gestures
+Fix unlinked ringtone and notification volume panel
+Fix LED Light not showing for some apps like Dialer
+Ensure battery temperature preference is always updated
+Make sure settings shortcut icons follow system accent
+Fix soft-reboot when AlarmManagerService is called
+Fix network traffic indicators not hiding on lost connection
+Optimize background activity of network traffic indicators
+Launcher3 Updates:
+ - Add option to allow app names to be 2 lines
+ - Add option to lock desktop layout
+ - Remove widget and foldername edit buttons when desktop is locked
+ - Minor hotseat icon fixes
+ - Add swipe-up gesture
