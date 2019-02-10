@@ -1,5 +1,7 @@
 Merge February security patch
 Latest Derp kernel
+Included Snap cam
+Fixed HDR issues for some videos
 Screenrecorder updates:
  - Don't show tmp file in some apps
  - Add support for 18:9 devices
