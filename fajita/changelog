@@ -1,33 +1,30 @@
-20190202 Build
+20190210 Build
 
-Upstream kernel to 4.9.154
-Add a Magisk executable script to utilise the complete capability of the kernel
-Fix timings of the non-Magisk ramdisk for efficient apply of values
-Allow sensors to access /dev/sensors
-Some netmgrd fixes
-Some SEPolicy fixes
-Expose hardcoded colour in Storage Summary Settings page
-Fix icon tinting in power details page
-Add animation slider to developer options instead of fixed values (0.1x accuracy)
-Fix disappearing home/recents button
-Fix behaviour of lockscreen bounce in an egde case
-Some performance improvements to Window Manager
-Fix memory leak in Input Method Manager
-Fix cases when activities refuse to enter PiP mode
-Some QSTile fixes
-Performance improvements in Resolver Activity
-Some crashes have been addressed
-Fix check for lockscreen in edge gestures
-Fix unlinked ringtone and notification volume panel
-Fix LED Light not showing for some apps like Dialer
-Ensure battery temperature preference is always updated
-Make sure settings shortcut icons follow system accent
-Fix soft-reboot when AlarmManagerService is called
-Fix network traffic indicators not hiding on lost connection
-Optimize background activity of network traffic indicators
-Launcher3 Updates:
- - Add option to allow app names to be 2 lines
- - Add option to lock desktop layout
- - Remove widget and foldername edit buttons when desktop is locked
- - Minor hotseat icon fixes
- - Add swipe-up gesture
+Merge February security patch
+Upstream kernel to 4.9.155
+Update clang to 8.0.8
+Fix WiFi Calling/VoLTE not showing for some networks (if you had to use the VoEnabler Magisk module, please remove it before updating)
+Add some icons to the Advanced Settings screen of Ambient Display
+Fix a VoLTE specific random force close in com.android.phone
+Update to ramdisk changes, should be more efficient and slightly smoother
+Fix corner padding on fajita (OP6T)
+Screenrecorder updates:
+ - Don't show tmp file in some apps
+ - Add support for 18:9 devices
+Bring back scrolling effect in carrier label
+Add Digital Wellbeing dark/black theme
+Add dark theme for inbuilt file manager
+Materalise the delete icon in wallpaper picker
+Add some priv-app permissions to included apps
+Kill teal colour in print service icon
+Use region based decision making for temperature units for Battery temperature
+Fix crash in visualiser in certain edge cases
+Translation fixes and additions
+Fix backup and restore of system settings
+Fix some logspam by SystemUI
+Improve dark theme in telecomm
+Switch to a new default wallpaper (thanks to @Wizper88 for the sexy wallpaper)
+Fix battery icon being grey at times
+Add dark google feed to launcher
+Fallback to default icons when applied icon pack is uninstalled
+Add dark/black theme to Updater and use accent for actionbar items
