@@ -1,6 +1,4 @@
 Merge February security patch
-Latest Derp kernel, upstreamed to 4.4.174
-Added soundtrigger blobs
 Screenrecorder updates:
  - Don't show tmp file in some apps
  - Add support for 18:9 devices
