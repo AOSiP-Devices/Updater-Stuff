@@ -1,3 +1,11 @@
-Merged in September Security patch
-Updated translations
-Fixed navbar/statusbar icons when powersave enabled
+ROM specific changes:
+[*] Fix wrong battery temperature unit
+[*] Translation & theme updates
+[*] New wallpaper by @Wizper99
+[*] Translation updates
+[*] Snap as default camera
+
+Device specific changes:
+[*] Kernel upstreamed to 4.4.174, merged latest sdm660 caf tag
+[*] Massive blob update from Mi A2 Lite
+[*] Enabled Full Treble & VNDK (Note: GSIs aren't tested)
