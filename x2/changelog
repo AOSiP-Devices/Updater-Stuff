@@ -1,3 +1,40 @@
-Merged in September Security patch
-Updated translations
-Fixed navbar/statusbar icons when powersave enabled
+20190216 Build
+
+Expose the colour of the searchbar
+Add permissions to change wifi hotspot settings
+Vectorize the SIP icon to allow tinting by themes
+Fix Sammy and Sammy bold being the same look
+Improve dark theme in Files Manager
+Use Google Sans in several UI elements to match Pixels, includes:
+ - Actionbar (header bar)
+ - Lockscreen
+ - Battery info screen
+Change searchbar style in dark theme
+Fix system dialog theme
+Update toast bg color
+Theme QS and notifications like Android Q
+Use dark theme in global actions/volume panel
+Use dark theme in inbuilt Dialer and Messaging app
+Change name of SystemUI dark theme
+Theme suggestion and condition cards background color
+Store messaging night state
+Fix actionbar font family on material themes
+Only show Now-playing fragment on lockscreen when notifications for player are disabled
+Expose suggestion and condition cards in Settings
+Add active-edge settings (will only work on Pixel devices)
+Determine weather scale based on network location
+Translations import and fixes
+AOSP Keyboard updates:
+ - Fix random crashes
+ - Fix swipe gesture
+ - Fix and add support for various languages
+ - Add support for incognito mode
+ - Update to unicode 9.0
+ - Disable sound and vibration on keypress by default
+ - Add shortcut support
+ - Sync new emojis
+ - Change keyboard height
+Differentiate between hour and minutes in digital bold lockscreen clock
+SEPolicy fixes and improvements
+Speed up update process via inbuilt Updater (will take effect in future updates)
+Avoid ambient indicators overlapping lockscreen notifications

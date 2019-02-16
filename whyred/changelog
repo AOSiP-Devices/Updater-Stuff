@@ -1,23 +1,46 @@
-Merge February security patch
-Latest Derp kernel, upstreamed to 4.4.174
-Added soundtrigger blobs
-Screenrecorder updates:
- - Don't show tmp file in some apps
- - Add support for 18:9 devices
-Bring back scrolling effect in carrier label
-Add Digital Wellbeing dark/black theme
-Add dark theme for inbuilt file manager
-Materalise the delete icon in wallpaper picker
-Add some priv-app permissions to included apps
-Kill teal colour in print service icon
-Use region based decision making for temperature units for Battery temperature
-Fix crash in visualiser in certain edge cases
-Translation fixes and additions
-Fix backup and restore of system settings
-Fix some logspam by SystemUI
-Improve dark theme in telecomm
-Switch to a new default wallpaper (thanks to @Wizper88 for the sexy wallpaper)
-Fix battery icon being grey at times
-Add dark google feed to launcher
-Fallback to default icons when applied icon pack is uninstalled
-Add dark/black theme to Updater and use accent for actionbar items
+20190216 Build
+
+Pin system components that always need to be responsive like
+ - SystemUI 
+ - surfaceflinger
+ - Home application
+Pre-optimize SystemUI
+
+Expose the colour of the searchbar
+Add permissions to change wifi hotspot settings
+Vectorize the SIP icon to allow tinting by themes
+Fix Sammy and Sammy bold being the same look
+Improve dark theme in Files Manager
+Use Google Sans in several UI elements to match Pixels, includes:
+ - Actionbar (header bar)
+ - Lockscreen
+ - Battery info screen
+Change searchbar style in dark theme
+Fix system dialog theme
+Update toast bg color
+Theme QS and notifications like Android Q
+Use dark theme in global actions/volume panel
+Use dark theme in inbuilt Dialer and Messaging app
+Change name of SystemUI dark theme
+Theme suggestion and condition cards background color
+Store messaging night state
+Fix actionbar font family on material themes
+Only show Now-playing fragment on lockscreen when notifications for player are disabled
+Expose suggestion and condition cards in Settings
+Add active-edge settings (will only work on Pixel devices)
+Determine weather scale based on network location
+Translations import and fixes
+AOSP Keyboard updates:
+ - Fix random crashes
+ - Fix swipe gesture
+ - Fix and add support for various languages
+ - Add support for incognito mode
+ - Update to unicode 9.0
+ - Disable sound and vibration on keypress by default
+ - Add shortcut support
+ - Sync new emojis
+ - Change keyboard height
+Differentiate between hour and minutes in digital bold lockscreen clock
+SEPolicy fixes and improvements
+Speed up update process via inbuilt Updater (will take effect in future updates)
+Avoid ambient indicators overlapping lockscreen notifications
