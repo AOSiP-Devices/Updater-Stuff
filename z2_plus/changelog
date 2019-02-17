@@ -1,5 +1,10 @@
 20190216 Build
 
+Device specific changes:
+Ubifocus and optizoom in Snap camera
+Dark video recording fix
+
+ROM specific changes:
 Expose the colour of the searchbar
 Add permissions to change wifi hotspot settings
 Vectorize the SIP icon to allow tinting by themes
