@@ -1,3 +1,6 @@
+Upstream kernel to 4.9.160
+Merge latest OnePlus kernel changes
+Update ramdisk changes
 Settings: change default night light brightness
 SystemUI: Show bluetooth battery level when available
 WeatherClient: miscellaneous improvements
