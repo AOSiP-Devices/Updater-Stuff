@@ -1,46 +1,22 @@
-20190216 Build
-
-Add HotwordEnrollment APK (Should fix OK Google with screen off)
-Update kernel to v4.9.158
-Update kernel from LineageOS (misc camera fixes)
-Disable diag services in a better way
-Address sepolicy neverallows
-
-Expose the colour of the searchbar
-Add permissions to change wifi hotspot settings
-Vectorize the SIP icon to allow tinting by themes
-Fix Sammy and Sammy bold being the same look
-Improve dark theme in Files Manager
-Use Google Sans in several UI elements to match Pixels, includes:
- - Actionbar (header bar)
- - Lockscreen
- - Battery info screen
-Change searchbar style in dark theme
-Fix system dialog theme
-Update toast bg color
-Theme QS and notifications like Android Q
-Use dark theme in global actions/volume panel
-Use dark theme in inbuilt Dialer and Messaging app
-Change name of SystemUI dark theme
-Theme suggestion and condition cards background color
-Store messaging night state
-Fix actionbar font family on material themes
-Only show Now-playing fragment on lockscreen when notifications for player are disabled
-Expose suggestion and condition cards in Settings
-Add active-edge settings (will only work on Pixel devices)
-Determine weather scale based on network location
-Translations import and fixes
-AOSP Keyboard updates:
- - Fix random crashes
- - Fix swipe gesture
- - Fix and add support for various languages
- - Add support for incognito mode
- - Update to unicode 9.0
- - Disable sound and vibration on keypress by default
- - Add shortcut support
- - Sync new emojis
- - Change keyboard height
-Differentiate between hour and minutes in digital bold lockscreen clock
-SEPolicy fixes and improvements
-Speed up update process via inbuilt Updater (will take effect in future updates)
-Avoid ambient indicators overlapping lockscreen notifications
+Settings: change default night light brightness
+SystemUI: Show bluetooth battery level when available
+WeatherClient: miscellaneous improvements
+SEPolicy updates
+Removed quick unlock (buggy for longer pins)
+Automatic translation import
+SmartActions backend support
+Actions: Add ringer modes
+CustomActions: Add ringer modes
+BlackAF: bring inline with recent changes to dark
+Add Wellbeing BlackAF theme
+Support system-as-root A-only backuptool
+Telephony: Support muting by RIL command
+ConsumerIR: Support Huawei's DSP chip implementation
+RIL: Allow overriding RadioResponse and RadioIndication
+CustomActions: Add support to launch applications
+SquishyNavbar: If power saver is on, don't allow feedback
+CustomActions: Screen off availability
+ActionUtils: Add screen on action
+Properly add TurboPrebuilt and updated Wellbeing
+SystemUI: fix landscape powermenu layout
+Add busybox
