@@ -1,22 +1,11 @@
+Device specific changes:
+Encryption
+Kernel upstreamed to 4.4.176
+
+ROM specific changes:
 Settings: change default night light brightness
 SystemUI: Show bluetooth battery level when available
-WeatherClient: miscellaneous improvements
-SEPolicy updates
+WeatherClient, SEPolicy, translation and theme updates
 Removed quick unlock (buggy for longer pins)
-Automatic translation import
-SmartActions backend support
-Actions: Add ringer modes
-CustomActions: Add ringer modes
-BlackAF: bring inline with recent changes to dark
-Add Wellbeing BlackAF theme
-Support system-as-root A-only backuptool
-Telephony: Support muting by RIL command
-ConsumerIR: Support Huawei's DSP chip implementation
-RIL: Allow overriding RadioResponse and RadioIndication
-CustomActions: Add support to launch applications
-SquishyNavbar: If power saver is on, don't allow feedback
-CustomActions: Screen off availability
-ActionUtils: Add screen on action
 Properly add TurboPrebuilt and updated Wellbeing
 SystemUI: fix landscape powermenu layout
-Add busybox
