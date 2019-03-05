@@ -1,4 +1,8 @@
 Merge March security patch
+
+Derp Kernel v5.0
+Miscellaneous updates in device tree
+
 Fix Settings theming to match the rest of the system
 Add haptic events to various full gesture navigation actions
 Don't break keyboard icon on full gesture navigation

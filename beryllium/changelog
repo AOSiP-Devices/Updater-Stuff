@@ -1,4 +1,11 @@
 Merge March security patch
+Latest Derp Kernel (hadn't pushed a standalone release for this)
+-4.9.161
+-LA.UM.7.3.r1-06900-sdm845.0
+-Compiled with Clang 8.0.9
+
+Rebased and cleaned device tree
+
 Fix Settings theming to match the rest of the system
 Add haptic events to various full gesture navigation actions
 Don't break keyboard icon on full gesture navigation
