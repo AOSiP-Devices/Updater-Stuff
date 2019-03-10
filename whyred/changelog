@@ -1,37 +1,17 @@
-Merge March security patch
-
-Derp Kernel v5.0
-Miscellaneous updates in device tree
-
-Fix Settings theming to match the rest of the system
-Add haptic events to various full gesture navigation actions
-Don't break keyboard icon on full gesture navigation
-Allow Google's sound picker storage permission
-Allow system themes to be used alongside having substratum installed
-Only show BT icon on statusbar when connected
+Translation import
+Some APN fixes and updates
+Disable tether provisioning for all devices
+Remove unused resources in various areas of the system
+Add Changing Started and In Call notification to audiopackage
+Remove search bar style on dark theme
+Accept .opus media files
 Some SEPolicy fixes
-Remove bottom gesture and navbar from backup
-Add a Changelog app to keep track of merged changes throughout the week
-Translation import and fixes
-Avoid multiple volume and power dialog animation
-Improve the VPN footer layout on the QS
-Add an AOD QS tile
-Add option to use AOD only when charging
-Messaging updates
-  - Don't crash on unsupported content type
-  - Add "Mark as read" quick action from notification
-  - Set targetSDK to 28
-  - Improve notification channels for easier tweaking
-  - Play an audible sound when receiving a class 0 message
-Hardware encryption updates
-Snap Camera updates
-Fix conditions in LS Weather
-Use stub for add or remove functionality for wifi
-Increase max wait time to 250ms for wifi connection
-Do not extend ambient pulse notification when not needed
-Enable screenrecording for SmartNav
-Use dark lock clock for BlackAF as well
-Refresh system themes on dirty flash
-Support to notify disconnetcted/connected state of wifi
-Add "All apps" to LED per-app list and make it the default
-Fix white-on-white dialog in SmartActions dialog
+Gallery fixes
+Update timestamp logic for timezones
+Fix cases when dark theme overrides black theme
+Enable second sim ringtone only when a second sim is inserted
+Some WiFi fixes and improvements
+Fix suggestion card background in BlackAF
+Don't add unneeded "Advanced" section in Network page
+Add changes related to high framerate in camerasource
+Some Bluetooth fixes
