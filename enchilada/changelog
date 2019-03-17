@@ -1,23 +1,10 @@
-Upstream kernel to 4.9.162
-Build kernel with Clang 9.0.1
-Add some EAS stuffs
-Implement non-Magisk dependent ramdisk (you will now have all the custom kernel setup goodies without Magisk too)
-Fix com.android.phone crash and stabilise network switching
-When "prevent accidental wake-up" is enabled, it will disable FP too now
-Translation import
-Some APN fixes and updates
-Disable tether provisioning for all devices
-Remove unused resources in various areas of the system
-Add Changing Started and In Call notification to audiopackage
-Remove search bar style on dark theme
-Accept .opus media files
-Some SEPolicy fixes
-Gallery fixes
-Update timestamp logic for timezones
-Fix cases when dark theme overrides black theme
-Enable second sim ringtone only when a second sim is inserted
-Some WiFi fixes and improvements
-Fix suggestion card background in BlackAF
-Don't add unneeded "Advanced" section in Network page
-Add changes related to high framerate in camerasource
-Some Bluetooth fixes
+Updated kernel to 4.9.163
+
+Add GoogleIntelligenceSense to BlackAF
+Fix hot reboot not following system theme in BlackAF
+Expanded volume panel
+ActiveEdge improvements
+Translation Updates
+Power off animation fixes
+Updated APNs
+Exposed QS Tiles and label colours

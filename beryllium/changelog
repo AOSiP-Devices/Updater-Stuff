@@ -1,19 +1,12 @@
-Latest Derp Kernel compiled with AOSP Clang 9.0.1
+Latest Derp Kernel included
+Updated blobs from 9.3.11, compatible with latest vendors
+Updated device tree from LineageOS
 
-Translation import
-Some APN fixes and updates
-Disable tether provisioning for all devices
-Remove unused resources in various areas of the system
-Add Changing Started and In Call notification to audiopackage
-Remove search bar style on dark theme
-Accept .opus media files
-Some SEPolicy fixes
-Gallery fixes
-Update timestamp logic for timezones
-Fix cases when dark theme overrides black theme
-Enable second sim ringtone only when a second sim is inserted
-Some WiFi fixes and improvements
-Fix suggestion card background in BlackAF
-Don't add unneeded "Advanced" section in Network page
-Add changes related to high framerate in camerasource
-Some Bluetooth fixes
+Add GoogleIntelligenceSense to BlackAF
+Fix hot reboot not following system theme in BlackAF
+Expanded volume panel
+ActiveEdge improvements
+Translation Updates
+Power off animation fixes
+Updated APNs
+Exposed QS Tiles and label colours
