@@ -1,7 +1,15 @@
-Add GoogleIntelligenceSense to BlackAF
-Fix hot reboot not following system theme in BlackAF
+Device specific changes:
+Device and vendor trees rebased over zuk-devs
+Fixed manual network selection
+Migrated to Pixel 3/XL powerhal adapted for our device, providing even more fluidity without compromising battery life
+Enabled support for Sustained Performance Mode
+Default IRQ affinity is set to the silver cluster
+Kernel tree rebased over LA.UM.7.5.2.r1-01500-8x96.0 CAF tag and compiled with clang 9.0.1
+(Note: This is an actual MSM8996 4.4 CAF tag so it might have better compatibility with our device compared to SDM660 CAF tags we were using before)
+
+ROM specific changes:
+Fixed hot reboot not following system theme in BlackAF
 Expanded volume panel
-ActiveEdge improvements
 Translation Updates
 Power off animation fixes
 Updated APNs
