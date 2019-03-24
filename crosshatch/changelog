@@ -1,8 +1,24 @@
-Add GoogleIntelligenceSense to BlackAF
-Fix hot reboot not following system theme in BlackAF
-Expanded volume panel
-ActiveEdge improvements
-Translation Updates
-Power off animation fixes
-Updated APNs
-Exposed QS Tiles and label colours
+Upstream kernel to 4.9.165
+Add long squeeze support
+Add media controls to squeeze
+Add tri-state ringer modes customization to squeeze
+Some improvements to expandable volume panel
+Add notification slider to volume panel if unlinked from ringer
+Fix statusbar clock overlap after a reboot
+Bring back System Uptime stats in About Phone
+Launcher3 updates:
+ - Per-app icon and label customizations
+ - Fix some edit icons
+ - Smoothen scrolling in icon pack view
+Fixes for BT icon theming and
+Add play/pause media and other media controls to smartnav
+Store selected keyboard on boot
+Use Android Q style ambient play design
+Add persistent settings icon to collapsed QS
+Translation imports
+Add lockscreen/ambient visualiser customization and create a dedicated tab for visualiser
+Turn on display if doze on charge is enabled
+Some kernel module fixes
+Add all System exposures created by the Substratum Team (Requires a clean install of all overlays else SystemUI and other aspects may crash)
+Fix carrier label layout in statusbar
+Remove extra option to disable roaming icon
