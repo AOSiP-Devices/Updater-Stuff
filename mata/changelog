@@ -18,3 +18,5 @@ Some kernel module fixes
 Add all System exposures created by the Substratum Team (Requires a clean install of all overlays else SystemUI and other aspects may crash)
 Fix carrier label layout in statusbar
 Remove extra option to disable roaming icon
+Some updates to updater
+Re-add WPS implementation
