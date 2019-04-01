@@ -1,9 +1,19 @@
+Device specific changes:
+Temporarily fall back to ZUI radio blobs to avoid the issue where:
+- VoLTE doesn't come back after mobile data has been switched to 2nd SIM and back to VoLTE capable 1st SIM
+Add support for Always On Display (which also fixes AOD on charging), disabled by default
+Kernel compiled with Clang 9.0.2
+F2FS updates from kernel/common
+Pull in from zuk-devs:
+- Update full graphics stack from LA.UM.7.5.r1-03700-8x96.0
+- Fix Miracast
+- Update blobs from Mi A2 Lite V10.0.7.0 release
+
+ROM specific changes:
 Fix Smartnav custom icons not loading after reboot
 Blacklist Smartbar editor for Smartaction
 Fix 4G/LTE toggle not working and VoLTE icon disappearing
 Add in camera action to bindable action in smartnav
 Translation import and fixes
 Fix text scrolling on Ambient Music Ticker
-Update icon pack list
-Lockscreen music albumart blur/greyscale options
 Add Kronic statusbar logo
