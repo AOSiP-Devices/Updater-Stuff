@@ -1,23 +1,11 @@
-Latest Derp Kernel
-Some improvements to expandable volume panel
-Add notification slider to volume panel if unlinked from ringer
-Fix statusbar clock overlap after a reboot
-Bring back System Uptime stats in About Phone
-Launcher3 updates:
- - Per-app icon and label customizations
- - Fix some edit icons
- - Smoothen scrolling in icon pack view
-Fixes for BT icon theming and
-Add play/pause media and other media controls to smartnav
-Store selected keyboard on boot
-Use Android Q style ambient play design
-Add persistent settings icon to collapsed QS
-Translation imports
-Add lockscreen/ambient visualiser customization and create a dedicated tab for visualiser
-Turn on display if doze on charge is enabled
-Some kernel module fixes
-Add all System exposures created by the Substratum Team (Requires a clean install of all overlays else SystemUI and other aspects may crash)
-Fix carrier label layout in statusbar
-Remove extra option to disable roaming icon
-Some updates to updater
-Re-add WPS implementation
+Update Clang to 9.0.2
+Upstream kernel to 4.9.166
+Fix Smartnav custom icons not loading after reboot
+Blacklist Smartbar editor for Smartaction
+Fix 4G/LTE toggle not working and VoLTE icon disappearing
+Add in camera action to bindable action in smartnav
+Translation import and fixes
+Fix text scrolling on Ambient Music Ticker
+Update icon pack list
+Lockscreen music albumart blur/greyscale options
+Add Kronic statusbar logo
