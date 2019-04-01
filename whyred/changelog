@@ -1,3 +1,4 @@
+Compile kernel with clang 9.0.2
 Fix Smartnav custom icons not loading after reboot
 Blacklist Smartbar editor for Smartaction
 Fix 4G/LTE toggle not working and VoLTE icon disappearing
