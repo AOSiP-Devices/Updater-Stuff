@@ -1,16 +1,11 @@
-Update Clang to 9.0.2
-Upstream kernel to 4.9.166
-Fix Smartnav custom icons not loading after reboot
-Blacklist Smartbar editor for Smartaction
-Fix 4G/LTE toggle not working and VoLTE icon disappearing
-Add in camera action to bindable action in smartnav
-Translation import and fixes
-Fix text scrolling on Ambient Music Ticker
-Update icon pack list
-Lockscreen music albumart blur/greyscale options
-Add Kronic statusbar logo
 
-2nd April Beta
+9th April Official
 
-April Security Patches
-Pocket mode (disabled by default)
+Merged in April Security Patches
+Updated translations
+Update some blur code for lockscreen cover art
+Fixed user icon occasionally appearing in QS footer
+Fixed emergency calls only/no service text going out of the screen in QS footer
+Updated SEPolicy
+
+Added Pixel Stand stuff
