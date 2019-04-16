@@ -7,3 +7,9 @@ Update some blur code for lockscreen cover art
 Fixed user icon occasionally appearing in QS footer
 Fixed emergency calls only/no service text going out of the screen in QS footer
 Updated SEPolicy
+April 16th Beta
+
+More statusbar logos
+Updated smartnav icons
+Double tap to sleep on statusbar won't trigger QS
+Fix old data icons style
