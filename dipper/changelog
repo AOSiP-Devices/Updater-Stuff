@@ -1,3 +1,5 @@
+Upstream kernel to 4.9.171
+Update Clang to 9.0.3
 Add Q Style battery as an option in battery styles
 Add Q style lockscreen clock as an option in lockscreen clock styles
 Fix powermenu lockdown option icon tint when using BlackAF
