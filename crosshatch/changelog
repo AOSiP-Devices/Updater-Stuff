@@ -1,15 +1,23 @@
-April 16th Beta
-
-More statusbar logos
-Updated smartnav icons
-Double tap to sleep on statusbar won't trigger QS
-Fix old data icons style
-
-April 22nd Official
-
-Appops / privacy guard updates
-ThemeTile updates
-Lockscreen filters updates (what this)
-Update some permissions
-Add more logo styles
-Translation updates
+Add Q Style battery as an option in battery styles
+Add Q style lockscreen clock as an option in lockscreen clock styles
+Fix powermenu lockdown option icon tint when using BlackAF
+Fix lockscreen visualizer tab title in OwlsNest
+Refactor recents switch to not require a systemui restart
+Add Sammy accent (bold and no bold) clock variant and reduce padding between hours and minutes in Sammy clock
+Fix notification icons animation when pulling down notifications
+Show battery icon in ambient display and AOD like on Android Q
+Fix wifi display (miracast) support, should not soft reboot anymore
+Refactor network traffic to allow only showing on expanded header (above QS)
+Fix QS opening when statusbar double tap to sleep is enabled
+Skipping track is now possible by double tapping on Ambient Music Ticker
+Simplify old mobile data icon implementation
+Merge a nicer pocketmode implementation
+Translation import and fixes
+Animate expanding volume panel
+Allow blacklisting apps for Pulse navbar
+Add deep sleep info to Uptime
+Show version when installing/updating an app in Package Installer
+Add Gaming Mode tile (Change ringer mode to vibrate and Disable Heads Up)
+Add Aggressive Battery settings
+- Aggressive Idle is a feature that makes the device idle constants more aggressive and ignores device motion when entering doze mode.
+- Aggressive Standby is a feature that stops apps from running in the background as much.
