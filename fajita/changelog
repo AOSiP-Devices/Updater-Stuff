@@ -1,25 +1,29 @@
-Upstream kernel to 4.9.171
-Update Clang to 9.0.3
-Add Q Style battery as an option in battery styles
-Add Q style lockscreen clock as an option in lockscreen clock styles
-Fix powermenu lockdown option icon tint when using BlackAF
-Fix lockscreen visualizer tab title in OwlsNest
-Refactor recents switch to not require a systemui restart
-Add Sammy accent (bold and no bold) clock variant and reduce padding between hours and minutes in Sammy clock
-Fix notification icons animation when pulling down notifications
-Show battery icon in ambient display and AOD like on Android Q
-Fix wifi display (miracast) support, should not soft reboot anymore
-Refactor network traffic to allow only showing on expanded header (above QS)
-Fix QS opening when statusbar double tap to sleep is enabled
-Skipping track is now possible by double tapping on Ambient Music Ticker
-Simplify old mobile data icon implementation
-Merge a nicer pocketmode implementation
+Merged in May 2019 Security Patches
+Upstream kernel to 4.9.173
+Merge some EAS improvements and enable zRAM (same value as latest OOS)
+Add custom doze, it includes (may vary with device, don't complain if some are missing):
+ - Always On Display
+ - Wake on new notifications
+ - Wake on hand wave over device
+ - Wake when removing phone from pocket
+ - Wake when device is lifted
+ - Custom ambient brightness sliders for different sunlight levels
+Power menu icons will follow custom accent on light theme
+Allow choosing AOSP webview for those not using GApps
+Fix clear all fab theming on Oreo recents when user is using white accent
+Fix some statusbar icon padding
+Add less boring/annoying heads-up option
+Fix autohiding in network traffic and fix padding
+Add big circle battery
+Fix kernel modules going to right path
+Disable oreo recents if quickstep is enabled
+Add 5 Quick-Quick Settings option (collapsed quick settings)
 Translation import and fixes
-Animate expanding volume panel
-Allow blacklisting apps for Pulse navbar
-Add deep sleep info to Uptime
-Show version when installing/updating an app in Package Installer
-Add Gaming Mode tile (Change ringer mode to vibrate and Disable Heads Up)
-Add Aggressive Battery settings
-- Aggressive Idle is a feature that makes the device idle constants more aggressive and ignores device motion when entering doze mode.
-- Aggressive Standby is a feature that stops apps from running in the background as much.
+Set proper colour for battery text in statusbar
+Do not animate expandable volume panel
+Fix for TD-SCDMA bar
+Q style lockscreen clock updates:
+ - Use Google Sans for clock font
+ - Align date/time/weather/alarm correctly on Q Clock style
+ - Set "It's" color to match system accent color
+ - Reduce top margin
