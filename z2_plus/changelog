@@ -1,11 +1,14 @@
+Device specific changes:
+Device and vendor repos rebased again over zuk-devs
+Added back call recording support, Pixel vibration pattern, Always-On Display support, Pixel perf stack and powerhal for EAS, and aptX blobs
+Kernel repo again rebased over android-linux-stable (which has latest linux-stable and CAF tags merged)
+Dropped a lot of unnecessary commits, reworked few to make them right
+Kernel is debloated heavily and debugging is reduced a lot (major thanks to sultanxda and SODP for the commits)
+(Battery life should be a bit better as debugging and other bloats take up a lot of CPU cycles)
+Enabled Clang LTO which provides a tiny performance bump
+
+ROM specific changes:
 Merged in May 2019 Security Patches
-Add custom doze, it includes (may vary with device, don't complain if some are missing):
- - Always On Display
- - Wake on new notifications
- - Wake on hand wave over device
- - Wake when removing phone from pocket
- - Wake when device is lifted
- - Custom ambient brightness sliders for different sunlight levels
 Power menu icons will follow custom accent on light theme
 Allow choosing AOSP webview for those not using GApps
 Fix clear all fab theming on Oreo recents when user is using white accent
@@ -13,9 +16,7 @@ Fix some statusbar icon padding
 Add less boring/annoying heads-up option
 Fix autohiding in network traffic and fix padding
 Add big circle battery
-Fix kernel modules going to right path
 Disable oreo recents if quickstep is enabled
-Add 5 Quick-Quick Settings option (collapsed quick settings)
 Translation import and fixes
 Set proper colour for battery text in statusbar
 Do not animate expandable volume panel
