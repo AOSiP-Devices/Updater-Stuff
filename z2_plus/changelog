@@ -1,28 +1,11 @@
 Device specific changes:
-Device and vendor repos rebased again over zuk-devs
-Added back call recording support, Pixel vibration pattern, Always-On Display support, Pixel perf stack and powerhal for EAS, and aptX blobs
-Kernel repo again rebased over android-linux-stable (which has latest linux-stable and CAF tags merged)
-Dropped a lot of unnecessary commits, reworked few to make them right
-Kernel is debloated heavily and debugging is reduced a lot (major thanks to sultanxda and SODP for the commits)
-(Battery life should be a bit better as debugging and other bloats take up a lot of CPU cycles)
-Enabled Clang LTO which provides a tiny performance bump
+* Kernel repo rebased over and adjusted for latest CAF 8996 tag
+  Notable fixes from the new tag:
+- Memory latency table for 8996
+  Memlat governor increases DDR bandwith upon increase in CPU frequencies as per the table
+- PAN emulation, a security feature
+- Added support for AVS version check
+  With this we don't need the hack to fix hi-res audio
+* Added CAF's Bluetooth sepolicy patch otherwise BT is broken with the latest kernel CAF tag
+* Simple LMK updates
 
-ROM specific changes:
-Merged in May 2019 Security Patches
-Power menu icons will follow custom accent on light theme
-Allow choosing AOSP webview for those not using GApps
-Fix clear all fab theming on Oreo recents when user is using white accent
-Fix some statusbar icon padding
-Add less boring/annoying heads-up option
-Fix autohiding in network traffic and fix padding
-Add big circle battery
-Disable oreo recents if quickstep is enabled
-Translation import and fixes
-Set proper colour for battery text in statusbar
-Do not animate expandable volume panel
-Fix for TD-SCDMA bar
-Q style lockscreen clock updates:
- - Use Google Sans for clock font
- - Align date/time/weather/alarm correctly on Q Clock style
- - Set "It's" color to match system accent color
- - Reduce top margin
