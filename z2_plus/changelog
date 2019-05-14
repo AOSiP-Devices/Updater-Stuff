@@ -1,11 +1,30 @@
-Device specific changes:
-* Kernel repo rebased over and adjusted for latest CAF 8996 tag
-  Notable fixes from the new tag:
-- Memory latency table for 8996
-  Memlat governor increases DDR bandwith upon increase in CPU frequencies as per the table
-- PAN emulation, a security feature
-- Added support for AVS version check
-  With this we don't need the hack to fix hi-res audio
-* Added CAF's Bluetooth sepolicy patch otherwise BT is broken with the latest kernel CAF tag
-* Simple LMK updates
-
+Track AOSP Webview from LineageOS
+Reduce top margin in Text lockscreen clock
+Expose QS Panel statusbar background for themers
+Pocket mode bugfixes
+ - The lock UI should no longer show when device is unlocked
+ - The device shouldn't randomly lock while being used
+Add back lift to wake and show on charge options for ambient display
+Add Android Q accents Green and Purple
+Implement enhanced battery estimates in QS as seen on Android Q
+Change QS layout to match Android Q but with some Kronic flavor
+Use Google Sans in several parts of the UI as done on Q, added elements are:
+ - Notification headers
+ - VPN and carrier label text in QS
+ - Lockscreen charging info
+ - QS Tile labels
+ - Collapsed QS items
+Add Android Q style music ticker in ambient display
+Use Q Battery icon in Battery usage screen in Settings
+Expose Q battery icon paths so substratum themers can now theme the battery icon too
+Expose regular portrait style too and unify with Q style
+Fix Ambient Music Ticker double tap detection
+Add seekbar to Music Notifications as seen on Android Q
+Fix weird artifact in Q battery icon
+Add a toggle for Pixel navbar animation for regular navbar and Pill gestures
+Modernize look of smartbar icons, old ones felt dated
+Increase blur on lockscreen albumart blur to max possible
+Fix some permissions for Google apps
+Option to hide Google searchbar in inbuilt launcher
+Optimizations for Smartnav and set colour based on system theme
+Fix scrolling when using three finger screenshot gesture

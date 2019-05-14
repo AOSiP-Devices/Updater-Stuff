@@ -1,29 +1,30 @@
-Merged in May 2019 Security Patches
-Merged LA.UM.7.2.r1-06900-sdm660.0
-Allow users to enable Always-On Display
-Add custom doze, it includes (may vary with device, don't complain if some are missing):
- - Always On Display
- - Wake on new notifications
- - Wake on hand wave over device
- - Wake when removing phone from pocket
- - Wake when device is lifted
- - Custom ambient brightness sliders for different sunlight levels
-Power menu icons will follow custom accent on light theme
-Allow choosing AOSP webview for those not using GApps
-Fix clear all fab theming on Oreo recents when user is using white accent
-Fix some statusbar icon padding
-Add less boring/annoying heads-up option
-Fix autohiding in network traffic and fix padding
-Add big circle battery
-Fix kernel modules going to right path
-Disable oreo recents if quickstep is enabled
-Add 5 Quick-Quick Settings option (collapsed quick settings)
-Translation import and fixes
-Set proper colour for battery text in statusbar
-Do not animate expandable volume panel
-Fix for TD-SCDMA bar
-Q style lockscreen clock updates:
- - Use Google Sans for clock font
- - Align date/time/weather/alarm correctly on Q Clock style
- - Set "It's" color to match system accent color
- - Reduce top margin
+Track AOSP Webview from LineageOS
+Reduce top margin in Text lockscreen clock
+Expose QS Panel statusbar background for themers
+Pocket mode bugfixes
+ - The lock UI should no longer show when device is unlocked
+ - The device shouldn't randomly lock while being used
+Add back lift to wake and show on charge options for ambient display
+Add Android Q accents Green and Purple
+Implement enhanced battery estimates in QS as seen on Android Q
+Change QS layout to match Android Q but with some Kronic flavor
+Use Google Sans in several parts of the UI as done on Q, added elements are:
+ - Notification headers
+ - VPN and carrier label text in QS
+ - Lockscreen charging info
+ - QS Tile labels
+ - Collapsed QS items
+Add Android Q style music ticker in ambient display
+Use Q Battery icon in Battery usage screen in Settings
+Expose Q battery icon paths so substratum themers can now theme the battery icon too
+Expose regular portrait style too and unify with Q style
+Fix Ambient Music Ticker double tap detection
+Add seekbar to Music Notifications as seen on Android Q
+Fix weird artifact in Q battery icon
+Add a toggle for Pixel navbar animation for regular navbar and Pill gestures
+Modernize look of smartbar icons, old ones felt dated
+Increase blur on lockscreen albumart blur to max possible
+Fix some permissions for Google apps
+Option to hide Google searchbar in inbuilt launcher
+Optimizations for Smartnav and set colour based on system theme
+Fix scrolling when using three finger screenshot gesture
