@@ -1,10 +1,5 @@
-Device specific changelog:
 Upstream kernel to 4.9.175
-Fix rough edges on corners and notch corners and make it seamless and smooth
-Add Notch Bar Killer in Display Cutout menu (Settings>Display>Device cutout)
- - Makes the system assume no notch exists thus allowing apps to extend to behind the notch too
-
-ROM specific chaneglog:
+Fix rough edges on notch corners and make it seamless and smooth
 Track AOSP Webview from LineageOS
 Reduce top margin in Text lockscreen clock
 Expose QS Panel statusbar background for themers
