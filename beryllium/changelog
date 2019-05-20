@@ -1,31 +1,15 @@
-Merged in 4.9.175 to kernel
-Track AOSP Webview from LineageOS
-Reduce top margin in Text lockscreen clock
-Expose QS Panel statusbar background for themers
-Pocket mode bugfixes
- - The lock UI should no longer show when device is unlocked
- - The device shouldn't randomly lock while being used
-Add back lift to wake and show on charge options for ambient display
-Add Android Q accents Green and Purple
-Implement enhanced battery estimates in QS as seen on Android Q
-Change QS layout to match Android Q but with some Kronic flavor
-Use Google Sans in several parts of the UI as done on Q, added elements are:
- - Notification headers
- - VPN and carrier label text in QS
- - Lockscreen charging info
- - QS Tile labels
- - Collapsed QS items
-Add Android Q style music ticker in ambient display
-Use Q Battery icon in Battery usage screen in Settings
-Expose Q battery icon paths so substratum themers can now theme the battery icon too
-Expose regular portrait style too and unify with Q style
-Fix Ambient Music Ticker double tap detection
-Add seekbar to Music Notifications as seen on Android Q
-Fix weird artifact in Q battery icon
-Add a toggle for Pixel navbar animation for regular navbar and Pill gestures
-Modernize look of smartbar icons, old ones felt dated
-Increase blur on lockscreen albumart blur to max possible
-Fix some permissions for Google apps
-Option to hide Google searchbar in inbuilt launcher
-Optimizations for Smartnav and set colour based on system theme
-Fix scrolling when using three finger screenshot gesture
+20th May 2019 Official build
+
+Upstream kernel to 4.9.177
+Hide some battery/notification LED color changing related settings - we have a white LED
+
+Use GSans for vpn and carrier label text in QS
+Allow Pixel Live Wallpapers to work on AOD/Ambient
+Fix saved autofill dialog colour
+Disable old assistant animation
+Whitelist AliPay and Qualcomm bootjars
+Fix ambient display not pulsing when song changes with ambient music ticker
+Translation import and fixes
+Add Quickspace to inbuilt launcher (Widget that shows date and weather on Pixel Launcher)
+Move battery percent in ambient display back to bottom-center
+Make Q Style Clock completely translatable
