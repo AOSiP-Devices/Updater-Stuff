@@ -2,7 +2,7 @@
 
 Move battery icon from QS to QS header (black portion above QS)
 Fix Android Auto black screening on disconnect
-Fix Notch Bar Killer dimensions to accomadate for notch
+Remove Battery LED customization from OwlsNest
 Upstream kernel to 4.9.176
 
 Use GSans for vpn and carrier label text in QS
