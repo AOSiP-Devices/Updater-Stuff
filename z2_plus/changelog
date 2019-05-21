@@ -1,5 +1,11 @@
 20th May 2019 Official build
 
+Device specific changes:
+Blob updates from lineage z2_plus trees. Also grab the sepolicy updates and correct BT mac address required for the new blobs from there
+Merge kernel/common, contains linux-stable 4.4.180 and F2FS updates
+F2FS improvements from arter97
+
+ROM specific changes:
 Use GSans for vpn and carrier label text in QS
 Allow Pixel Live Wallpapers to work on AOD/Ambient
 Fix saved autofill dialog colour
@@ -7,6 +13,7 @@ Disable old assistant animation
 Whitelist AliPay and Qualcomm bootjars
 Fix ambient display not pulsing when song changes with ambient music ticker
 Translation import and fixes
-Add Quickspace to inbuilt launcher (Widget that shows date and weather on Pixel Launcher)
+Add 'At A Glance' to inbuilt launcher (Widget that shows date and weather on Pixel Launcher)
+Fix bottom padding in launcher when search bar is hidden
 Move battery percent in ambient display back to bottom-center
 Make Q Style Clock completely translatable
