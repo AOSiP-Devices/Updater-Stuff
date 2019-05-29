@@ -28,3 +28,4 @@ Pulse fixes and improvements
 Thermal memez
 Updated kernel to 4.9.179
 Merged LA.UM.7.3.r1-07800-sdm845.0 into kernel
+Fixed notch issues that some people were facing on previous build -- reverted notch cutout update
