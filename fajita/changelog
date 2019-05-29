@@ -1,10 +1,7 @@
-20th May 2019 Official build
-
+20th May 2019 Official
 Move battery icon from QS to QS header (black portion above QS)
 Fix Android Auto black screening on disconnect
-Remove Battery LED customization from OwlsNest
 Upstream kernel to 4.9.176
-
 Use GSans for vpn and carrier label text in QS
 Allow Pixel Live Wallpapers to work on AOD/Ambient
 Fix saved autofill dialog colour
@@ -15,10 +12,18 @@ Translation import and fixes
 Add Quickspace to inbuilt launcher (Widget that shows date and weather on Pixel Launcher)
 Move battery percent in ambient display back to bottom-center
 Make Q Style Clock completely translatable
+
 29th May Beta
-
-Translation updates
-Miscellaneous changes
-Improvements for pulse visualizer
-Translated Q lockscreen clock
-
+Change Alarms only mode to Silent mode as an option for alert slider
+Upstream kernel to 4.9.179
+Merge RenderZenith 1.3.0 changes which helps in preventing small cores being on max when big cores are meant to handle the task
+Translation import and fixes
+Fix auto enable for Aggressive Battery on battery saver
+Import translations from Google's Beta 3 SystemUI for Q (Text) Clock
+Tint "It's" text on Q Clock based on wallpaper primary color, incase the system cannot determine it, it will fallback to System Accent
+Pulse fixes and improvements
+ - Option to use system accent for pulse
+ - Fix pulse opacity on automatic colour and system accent colour
+ - Add pulse lava lamp start and end colours
+ - Add bar animation smoothing
+ - Fix defaulting to user colour when no albumart colour is available
