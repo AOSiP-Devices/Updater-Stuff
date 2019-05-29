@@ -18,9 +18,14 @@ Fix bottom padding in launcher when search bar is hidden
 Move battery percent in ambient display back to bottom-center
 Make Q Style Clock completely translatable
 29th May Beta
-
-Translation updates
-Miscellaneous changes
-Improvements for pulse visualizer
-Translated Q lockscreen clock
+Translation import and fixes
+Fix auto enable for Aggressive Battery on battery saver
+Import translations from Google's Beta 3 SystemUI for Q (Text) Clock
+Tint "It's" text on Q Clock based on wallpaper primary color, incase the system cannot determine it, it will fallback to System Accent
+Pulse fixes and improvements
+ - Option to use system accent for pulse
+ - Fix pulse opacity on automatic colour and system accent colour
+ - Add pulse lava lamp start and end colours
+ - Add bar animation smoothing
+ - Fix defaulting to user colour when no albumart colour is available
 
