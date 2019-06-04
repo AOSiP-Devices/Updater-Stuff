@@ -1,24 +1,19 @@
-20th May 2019 Official build
-
-Use GSans for vpn and carrier label text in QS
-Allow Pixel Live Wallpapers to work on AOD/Ambient
-Fix saved autofill dialog colour
-Disable old assistant animation
-Whitelist AliPay and Qualcomm bootjars
-Fix ambient display not pulsing when song changes with ambient music ticker
-Translation import and fixes
-Add Quickspace to inbuilt launcher (Widget that shows date and weather on Pixel Launcher)
-Move battery percent in ambient display back to bottom-center
-Make Q Style Clock completely translatable
-29th May Beta
-Translation import and fixes
+Merged in June 2019 Security Patches
 Fix auto enable for Aggressive Battery on battery saver
 Import translations from Google's Beta 3 SystemUI for Q (Text) Clock
 Tint "It's" text on Q Clock based on wallpaper primary color, incase the system cannot determine it, it will fallback to System Accent
+Translation import and fixes
+Update Singapore and Iran APNs
+Remove the 0 from hours in Digital Bold option for lockscreen clock
+Stop USB debugging window from being dismissed when tapping outside the dialog
+Disable abolute volume control for AirPods 2
+Reset Update Channel to default when custom updater channel is set blank
+Telephony fixes and chnge telephony actionbar and text colour
+Enable and fix QS detail view (can view available WiFis and BT devices from QS for example)
+Add battery saving mode to location
 Pulse fixes and improvements
  - Option to use system accent for pulse
  - Fix pulse opacity on automatic colour and system accent colour
  - Add pulse lava lamp start and end colours
  - Add bar animation smoothing
  - Fix defaulting to user colour when no albumart colour is available
-
