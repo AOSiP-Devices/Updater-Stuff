@@ -1,3 +1,13 @@
+Device specific changes:
+Add KCAL menu, can be found at Settings > Device features > Display color
+Bring back haptic feedback on touch, also boost the global feedback strength a bit
+Updates from lineage z2_plus repos
+Improvements from sultanxda's Pixel 2/XL kernel repo
+Backport thin archives, ld dead code elimination and LTO commits from android-4.19
+Migrate from GNU gold to LLVM lld linking
+Rip-off cpu freq. throttling values from SODP Tone Thermanager config
+
+ROM specific changes:
 Merged in June 2019 Security Patches
 Fix auto enable for Aggressive Battery on battery saver
 Import translations from Google's Beta 3 SystemUI for Q (Text) Clock
@@ -6,9 +16,9 @@ Translation import and fixes
 Update Singapore and Iran APNs
 Remove the 0 from hours in Digital Bold option for lockscreen clock
 Stop USB debugging window from being dismissed when tapping outside the dialog
-Disable abolute volume control for AirPods 2
+Disable absolute volume control for AirPods 2
 Reset Update Channel to default when custom updater channel is set blank
-Telephony fixes and chnge telephony actionbar and text colour
+Telephony fixes and change telephony actionbar and text colour
 Enable and fix QS detail view (can view available WiFis and BT devices from QS for example)
 Add battery saving mode to location
 Pulse fixes and improvements
