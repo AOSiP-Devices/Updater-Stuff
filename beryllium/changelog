@@ -1,3 +1,5 @@
+Updated kernel to 4.9.181
+
 Redesign the backend of Pulse for stabler functionality
 Align "Owner Info" as per the clock style
 Add an advanced location tile to cycle through battery saving, device only and High Accuracy modes

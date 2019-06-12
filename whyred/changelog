@@ -1,3 +1,11 @@
+READ THIS FIRST
+
+Flash pie firmware first, or flashing the ROM will fail
+You can find that here - https://xiaomifirmwareupdater.com/#stable#whyred, thanks to yshalsager
+You'll also require a pie fw compatible recovery for the future (I flashed fw+ROM+new TWRP all in one go)
+The kernel included is based on Mokee's for now, I added KCAL support, wireguard, and some f2fs patches
+
+
 Redesign the backend of Pulse for stabler functionality
 Align "Owner Info" as per the clock style
 Add an advanced location tile to cycle through battery saving, device only and High Accuracy modes
