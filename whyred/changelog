@@ -4,6 +4,7 @@ Flash pie firmware first, or flashing the ROM will fail
 You can find that here - https://xiaomifirmwareupdater.com/#stable#whyred, thanks to yshalsager
 You'll also require a pie fw compatible recovery for the future (I flashed fw+ROM+new TWRP all in one go)
 The kernel included is based on Mokee's for now, I added KCAL support, wireguard, and some f2fs patches
+*Goodix users, you'll have to re-enroll fingerprint*
 
 
 Redesign the backend of Pulse for stabler functionality
