@@ -1,19 +1,14 @@
-READ THIS FIRST
-
-Flash pie firmware first, or flashing the ROM will fail
-You can find that here - https://xiaomifirmwareupdater.com/#stable#whyred, thanks to yshalsager
-You'll also require a pie fw compatible recovery for the future (I flashed fw+ROM+new TWRP all in one go)
-The kernel included is based on Mokee's for now, I added KCAL support, wireguard, and some f2fs patches
-*Goodix users, you'll have to re-enroll fingerprint*
-
-
-Redesign the backend of Pulse for stabler functionality
-Align "Owner Info" as per the clock style
-Add an advanced location tile to cycle through battery saving, device only and High Accuracy modes
-Show a summary when render mode for pulse is changed to reflect the change in selected mode
-Show more than 4 items in every Settings page
-Translation imports and fixes
-Fix data usage details in QS when using dark/black theme
-Remove the 5 option from number of quickbar colums for QS
-Fix date being broken on some languages in Quickspace (At-a-glance widget on launcher3)
-Remove some prebuilt Google Apps since every GApps package already includes them
+Reduce padding between media control and seekbar in media notifications
+Fix auto-brightness not taking into effect immediately after enabling it
+Some DTBO image fixes
+Fix settings crashing when an appops edge case occurs
+Convert sync icons to vector to allow theming
+Add some icons to the Ambient Display section of Settings
+Some dock accessory fixes
+Translation import and fixes
+Pop-up an error when renaming a file in Documents app and something goes wrong
+Set delay for screenshot shortcut (vol up+power) to 0
+Some encryption fixes
+Update German APNs
+Clang fixes for kernels
+Enable/disable call recording for various countries

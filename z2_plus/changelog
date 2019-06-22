@@ -1,3 +1,14 @@
-Initial k4.9 beta build
-Please test this build and report bugs if you find any
-If all goes well then k4.9 might be used in official builds!
+Reduce padding between media control and seekbar in media notifications
+Fix auto-brightness not taking into effect immediately after enabling it
+Some DTBO image fixes
+Fix settings crashing when an appops edge case occurs
+Convert sync icons to vector to allow theming
+Add some icons to the Ambient Display section of Settings
+Some dock accessory fixes
+Translation import and fixes
+Pop-up an error when renaming a file in Documents app and something goes wrong
+Set delay for screenshot shortcut (vol up+power) to 0
+Some encryption fixes
+Update German APNs
+Clang fixes for kernels
+Enable/disable call recording for various countries
