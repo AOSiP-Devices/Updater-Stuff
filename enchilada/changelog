@@ -15,7 +15,7 @@ Add some icons to the Ambient Display section of Settings
 Some dock accessory fixes
 Translation import and fixes
 Pop-up an error when renaming a file in Documents app and something goes wrong
-Set delay for screenshot shortcut (vol up+power) to 0
+Set delay for screenshot shortcut (vol down+power) to 0
 Some encryption fixes
 Update German APNs
 Clang fixes for kernels
