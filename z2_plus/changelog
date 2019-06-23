@@ -1,3 +1,8 @@
+Device specific changes:
+Kernel rebased over latest k4.4 8996 CAF tag, upstreamed to 4.4.182 and compiled with Clang 9.0.4
+Pull in few more improvements from sultanxda's Pixel 2/XL kernel
+
+ROM specific changes:
 Reduce padding between media control and seekbar in media notifications
 Fix auto-brightness not taking into effect immediately after enabling it
 Some DTBO image fixes
