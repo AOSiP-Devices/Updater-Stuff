@@ -1,14 +1,27 @@
-Reduce padding between media control and seekbar in media notifications
-Fix auto-brightness not taking into effect immediately after enabling it
-Some DTBO image fixes
-Fix settings crashing when an appops edge case occurs
-Convert sync icons to vector to allow theming
-Add some icons to the Ambient Display section of Settings
-Some dock accessory fixes
+Merge July Security patch
+Add Apt-X HD support for BT devices
+Disable shortcut for bugreport service (vol up+vol down+power)
+Disable unnecessary logging of modem and ramdump
+Some SEPolicy fixes
+Encryption fixes for newer devices
+Allow heads-up notifications to draw beyond bounds
+Fix behaviour of QS tiles that have dual targets
+Add an animation in power menu when going from normal to advanced menu
+Add Sync QS tile
 Translation import and fixes
-Pop-up an error when renaming a file in Documents app and something goes wrong
-Set delay for screenshot shortcut (vol down+power) to 0
-Some encryption fixes
-Update German APNs
-Clang fixes for kernels
-Enable/disable call recording for various countries
+Rearrange Battery and Sounds settings page
+Add Android Q activity animation
+Permission fixes for FM Radio
+Some vendor fixes
+Stable seekbar positioning
+Some AOSP fixes
+Add switch for data disabled icon on statusbar
+Add bluetooth SBC HD dual-channel audio support
+Make the seekbar transparent on non seekable tracks in media notifications
+Add Android KitKat style notification ticker and hide it on notched devices
+Dialer updates
+ - Add auto record feature for calls
+ - Incoming call screen and in-call screen has contact name in 2 lines
+ - Improve contacts layout
+ - Switch to allow contact photos to be full screen in incall and incoming call UI
+ - Show phone number in bottom row if number type is present
