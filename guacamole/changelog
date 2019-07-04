@@ -1,1 +1,8 @@
 Initial Beta Release
+
+3rd July hotfix builds
+
+Users of some languages such as Russian were experiencing a black screen after updating (SystemUI crashing)
+This build should resolve that
+
+Another patch was almost merged in that half the devices got in the previous round, which fixes crashes when using certain music players such as Gaana
