@@ -1,3 +1,29 @@
+---15th July Beta build---
+Upstreamed kernel to 4.9.185
+Update kernel clang to 9.0.5
+Allow the user to enable WiFi Mac Randomization from Developer options
+Fix some audio support issues like multi channel audio volume not reducing and being stuck on max
+Some SEPolicy fixes
+Fix OTG drive support and USB headphone support
+A ton of ROM side SEPolicy fixes and improvements and merge latest CAF changes
+Split up QS category in OwlsNest a bit
+Long press on screenshot in power menu now starts a partial screenshot
+Some KeyHandler (alert slider) fixes
+A ton of Navigation Gestures (OnePlus style) fixes and improvements for a more fluid experience
+Allow navbar height to be reduced to a minimum of 20 now instead of 65
+Add an option in OwlsNest to launch default music player in various BT/headphone/car scenarios
+Some hardware interface fixes regarding FP and LED light
+Add some more permssions to some prebuilt apps
+Add a longer delay to wifi scan interval to properly detect all wifi networks
+Import Q animations from the Pixel Preview images
+Change charge current style to what we had in Oreo for a cleaner look
+Ensure battery estimates update periodically
+Some theming fixes
+Reduce sleep timeout for pocket lock
+Add an illustration to ambient music ticker in OwlsNest and improve the wording of the description a bit
+Add QS tile styles (present in Settings>Display, will be moved to OwlsNest in future)
+
+---2nd July build---
 Merge July Security patch
 Upstream kernel to 4.9.184
 Encryption fixes for newer devices
@@ -23,9 +49,7 @@ Dialer updates
  - Switch to allow contact photos to be full screen in incall and incoming call UI
  - Show phone number in bottom row if number type is present
 
-3rd July hotfix builds
-
+---3rd July hotfix builds---
 Users of some languages such as Russian were experiencing a black screen after updating (SystemUI crashing)
 This build should resolve that
-
 Another patch was almost merged in that half the devices got in the previous round, which fixes crashes when using certain music players such as Gaana
