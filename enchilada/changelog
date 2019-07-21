@@ -1,17 +1,19 @@
----15th July Beta build---
-Upstreamed kernel to 4.9.185
+--- 22nd July Official Build ---
+Upstreamed kernel to 4.9.186
+Update vendor blobs to OOS 9.0.7
 Update kernel clang to 9.0.5
 Allow the user to enable WiFi Mac Randomization from Developer options
 Fix some audio support issues like multi channel audio volume not reducing and being stuck on max
 Some SEPolicy fixes
 Fix OTG drive support and USB headphone support
+Some KeyHandler (alert slider) fixes
 A ton of ROM side SEPolicy fixes and improvements and merge latest CAF changes
 Split up QS category in OwlsNest a bit
 Long press on screenshot in power menu now starts a partial screenshot
-Some KeyHandler (alert slider) fixes
 A ton of Navigation Gestures (OnePlus style) fixes and improvements for a more fluid experience
 Allow navbar height to be reduced to a minimum of 20 now instead of 65
-Add an option in OwlsNest to launch default music player in various BT/headphone/car scenarios
+Add an option in OwlsNest to launch default music player in various BT/headphone/car scenarios (disabled by default)
+Translation import and fixes
 Some hardware interface fixes regarding FP and LED light
 Add some more permssions to some prebuilt apps
 Add a longer delay to wifi scan interval to properly detect all wifi networks
@@ -21,35 +23,4 @@ Ensure battery estimates update periodically
 Some theming fixes
 Reduce sleep timeout for pocket lock
 Add an illustration to ambient music ticker in OwlsNest and improve the wording of the description a bit
-Add QS tile styles (present in Settings>Display, will be moved to OwlsNest in future)
-
----2nd July build---
-Merge July Security patch
-Upstream kernel to 4.9.184
-Encryption fixes for newer devices
-Allow heads-up notifications to draw beyond bounds
-Fix behaviour of QS tiles that have dual targets
-Add an animation in power menu when going from normal to advanced menu
-Add Sync QS tile
-Translation import and fixes
-Rearrange Battery and Sounds settings page
-Add Android Q activity animation
-Permission fixes for FM Radio
-Some vendor fixes
-Stable seekbar positioning
-Some AOSP fixes
-Add switch for data disabled icon on statusbar
-Add bluetooth SBC HD dual-channel audio support
-Make the seekbar transparent on non seekable tracks in media notifications
-Add Android KitKat style notification ticker and hide it on notched devices
-Dialer updates
- - Add auto record feature for calls
- - Incoming call screen and in-call screen has contact name in 2 lines
- - Improve contacts layout
- - Switch to allow contact photos to be full screen in incall and incoming call UI
- - Show phone number in bottom row if number type is present
-
----3rd July hotfix builds---
-Users of some languages such as Russian were experiencing a black screen after updating (SystemUI crashing)
-This build should resolve that
-Another patch was almost merged in that half the devices got in the previous round, which fixes crashes when using certain music players such as Gaana
+Add QS tile styles (present in Settings>Display)
