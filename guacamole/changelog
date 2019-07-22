@@ -1,4 +1,13 @@
 --- 22nd July Official Build ---
+update blobs to 9.5.10
+Added DisplayModes app
+ -allow to change color and display resolution
+fixed OTA, will work for the next build and on
+Enable Wi-Fi MAC randomization
+tons of device fixes
+now running Enforcing
+fixed Ok google
+
 A ton of ROM side SEPolicy fixes and improvements and merge latest CAF changes
 Split up QS category in OwlsNest a bit
 Long press on screenshot in power menu now starts a partial screenshot
