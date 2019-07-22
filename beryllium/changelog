@@ -1,5 +1,4 @@
 --- 22nd July Official Build ---
-Kernel updated to v4.9.186
 A ton of ROM side SEPolicy fixes and improvements and merge latest CAF changes
 Split up QS category in OwlsNest a bit
 Long press on screenshot in power menu now starts a partial screenshot
