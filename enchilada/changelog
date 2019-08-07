@@ -8,8 +8,6 @@ Add our new OnePlus Device Settings which is a replacement for Additional Button
 Fix silent mode in Alert Slider not working
 Add CarrierConfigs from OSS 9
 Fix lift to wake not being consistent
-Massive FOD fixes and improvements for a stabler experience
-
 
 Add start swipe height setting for OnePlus Navigation Gestures
 Some Bluetooth edge case fixes
