@@ -1,26 +1,32 @@
---- 22nd July Official Build ---
-Upstreamed kernel to 4.9.186
-Update vendor blobs to OOS 9.0.7
-Update kernel clang to 9.0.5
-Allow the user to enable WiFi Mac Randomization from Developer options
-Fix some audio support issues like multi channel audio volume not reducing and being stuck on max
-Some SEPolicy fixes
-Fix OTG drive support and USB headphone support
-Some KeyHandler (alert slider) fixes
-A ton of ROM side SEPolicy fixes and improvements and merge latest CAF changes
-Split up QS category in OwlsNest a bit
-Long press on screenshot in power menu now starts a partial screenshot
-A ton of Navigation Gestures (OnePlus style) fixes and improvements for a more fluid experience
-Allow navbar height to be reduced to a minimum of 20 now instead of 65
-Add an option in OwlsNest to launch default music player in various BT/headphone/car scenarios (disabled by default)
+Merge August Security patch
+
+Upstream kernel to 4.9.188
+Merge in latest RZ kernel changes (A massive thanks to @RenderBroken and the others in the RZ team)
+Merge in latest CAF tag for WiFi drivers
+Add our new OnePlus Device Settings which is a replacement for Additional Buttons and Display Modes
+ * NOTE: You will have to set your prefered display mode and vibration values again due to package name changes
+Fix silent mode in Alert Slider not working
+Add CarrierConfigs from OSS 9
+Fix lift to wake not being consistent
+Massive FOD fixes and improvements for a stabler experience
+
+
+Add start swipe height setting for OnePlus Navigation Gestures
+Some Bluetooth edge case fixes
+Add Qualcomm's NLP Combo feature
+Add support for Verizon Wireless on a ton of devices and fix issues related to several network carriers
+Remove unnecessary right padding for time picker (before am/pm)
+Fix PiP not working for all users
+Fix unable to enter device pin with a hardware keyboard
+Refresh navigtion bar when display density is changed
+Massive sim lock and sim feature fixes
+Some SEPolicy fixes for better security
+Add missing permissions icons in App Ops
+Add Assited GPS Settings menu for supported devices
+Add an icon for Private DNS option in Settings
+Add fine location for Bluetooth scans
+Fix emergency icon in dark theme
+Add 1440p camcoder profile
+Fix crash when a new wifi tracker is created
+Fix Bluetooth crash when more than 2 PHY's specified for connection
 Translation import and fixes
-Some hardware interface fixes regarding FP and LED light
-Add some more permssions to some prebuilt apps
-Add a longer delay to wifi scan interval to properly detect all wifi networks
-Import Q animations from the Pixel Preview images
-Change charge current style to what we had in Oreo for a cleaner look
-Ensure battery estimates update periodically
-Some theming fixes
-Reduce sleep timeout for pocket lock
-Add an illustration to ambient music ticker in OwlsNest and improve the wording of the description a bit
-Add QS tile styles (present in Settings>Display)
