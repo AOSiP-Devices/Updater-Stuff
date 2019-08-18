@@ -1,3 +1,5 @@
+Updated fingerprint and blobs to 10.3.2.0
+Few miscellaneous fixes
 Allow to customize Updater check interval (everyday, week or month)
 Allow suspending A/B updates
 Fix gesture for camera launch, it is now treated as a double press on power button
