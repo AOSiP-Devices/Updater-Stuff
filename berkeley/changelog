@@ -1,3 +1,23 @@
+Merge August Security patch
+Add start swipe height setting for OnePlus Navigation Gestures
+Some Bluetooth edge case fixes
+Add Qualcomm's NLP Combo feature
+Add support for Verizon Wireless on a ton of devices and fix issues related to several network carriers
+Remove unnecessary right padding for time picker (before am/pm)
+Fix PiP not working for all users
+Fix unable to enter device pin with a hardware keyboard
+Refresh navigtion bar when display density is changed
+Massive sim lock and sim feature fixes
+Some SEPolicy fixes for better security
+Add missing permissions icons in App Ops
+Add Assited GPS Settings menu for supported devices
+Add an icon for Private DNS option in Settings
+Add fine location for Bluetooth scans
+Fix emergency icon in dark theme
+Add 1440p camcoder profile
+Fix crash when a new wifi tracker is created
+Fix Bluetooth crash when more than 2 PHY's specified for connection
+Translation import and fixes
 Allow to customize Updater check interval (everyday, week or month)
 Allow suspending A/B updates
 Fix gesture for camera launch, it is now treated as a double press on power button
