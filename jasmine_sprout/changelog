@@ -1,0 +1,35 @@
+ROM side changes:
+Allow to customize Updater check interval (everyday, week or month)
+Allow suspending A/B updates
+Fix gesture for camera launch, it is now treated as a double press on power button
+Make autofill dialog background white on inbuilt black and dark theme
+Some SEPolicy fixes
+Add per app VPN data restrictions
+Add some SurfaceFlinger changes from CAF, fixes Android Auto for some devices
+Set Google autofill service as default, incase no GApps are present, none will be set
+Merge latest pie-gsi changes from AOSP
+Some Bluetooth fixes
+Optimize scrolling distance
+Long pressing on gaming mode tile will show extra info about what the toggle does
+Battery Saver tile improvements
+ - battery % is shown as the label for the tile
+ - "Charging" is shown when the device is charging with the same look as lockscreen
+ - "Fully-charged" is shown when the device is plugged in and charged to 100%
+Show the minutes in Text lockscreen clock on one line
+Remove animation from pocket mode since it causes flickering
+Fix high battery drain after using flashlight
+Don't vibrate on touchscreen camera gesture
+Added RGB accent picker in place of current implementation
+Fixes for the new accent color picker
+Improve performance of unclipped layers
+Allow modifying GPU render mode in Developer Options
+
+Device side changes:
+Used a fixed top-app stune and reduce interaction boost (seems enough to maintain smoothness and saves a bit of battery life)
+Set correct QoS CPU DMA latency value for sdm660
+Enabled FIFO scheduling for UI and render threads by default (more fluidity)
+Reverted EAS/sched backports from KuranKaname's mata kernel repo and Energy Model management framework by Quentin Perret (those commits increased idle drain)
+Replaced SnapCamera with MiuiCamera
+Added Pixel 2 XL perf stack for OMX Video Decoder/Encoder
+Kernel upstreamed to 4.4.189
+Switched to fq_codel as default queueing discipline (benchmarks say download/upload speeds are a bit faster)
