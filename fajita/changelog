@@ -1,30 +1,37 @@
-Add DC-Dimming support to the ROM (present in OnePlus Settings)
- - thanks to the Omni Team (@darkobas in particular) and @0ctobot for the kernel side help with the feature
-Upstreamed kernel to 4.9.189
-Merged latest OOS 9.0.8/9.0.16 changes to the kernel
-Merged latest OOS 9.0.8/9.0.16 audio drivers into the kernel
-Update blobs to OOS 9.0.8
-Allow to customize Updater check interval (everyday, week or month)
-Allow suspending A/B updates
-Fix gesture for camera launch, it is now treated as a double press on power button
-Make autofill dialog background white on inbuilt black and dark theme
-Some SEPolicy fixes
-Add per app VPN data restrictions
-Add some SurfaceFlinger changes from CAF, fixes Android Auto for some devices
-Set Google autofill service as default, incase no GApps are present, none will be set
-Merge latest pie-gsi changes from AOSP
-Some Bluetooth fixes
-Optimize scrolling distance
-Long pressing on gaming mode tile will show extra info about what the toggle does
-Battery Saver tile improvements
- - battery % is shown as the label for the tile
- - "Charging" is shown when the device is charging with the same look as lockscreen
- - "Fully-charged" is shown when the device is plugged in and charged to 100%
-Show the minutes in Text lockscreen clock on one line
-Remove animation from pocket mode since it causes flickering
-Fix high battery drain after using flashlight
-Don't vibrate on touchscreen camera gesture
-Added RGB accent picker in place of current implementation
-Fixes for the new accent color picker
+Merge September Security Patch backported from Android Q
+Upstreamed kernel to 4.9.192
+Build kernel with Clang 9.0.6
+Optimize system performance such as opening of chrome and scrolling
+Fix 60fps video recording
+Merge in the latest FP changes from LOS
+Fix some MMS stuff
 Improve performance of unclipped layers
-Allow modifying GPU render mode in Developer Options
+Translation import and fixes
+Add config to force hide battery % on lockscreen for devices with massive notches
+Revise download speed, remaining time, and percentage in download notification
+Remove download notification after preview
+Improve scrolling friction and smoothness
+Add LED light configuration to messaging app
+Code cleanup in messaging app
+Track recorder app
+Add proper support for spell checker for a ton of languages with the right keyboard layout
+Add shadow to home button on navbar
+Cleanup code in SnapCam, fix picture size preference, allow to disable image stabilization
+Don't run notification ticker when in DND
+Sort sims by subscription ID
+Allow restricting apps from using data
+Add support for internal audio recorder
+Fix BT scan permission in appops
+Add battery estimates option and allow to configure position of it in QS
+Allow overriding DUN settings when tethering
+Shorten wait time for shutdown time optimization
+Kill some logspam
+Fix some adbd sepolicy
+Respect global vibration setting for charging sounds
+Always show alarm clock headsup in less boring headsup
+Make animations faster and smoother
+Some theme fixes for popup animation and a new network traffic arrow icon
+Add some new permissions requested by system apps
+Add capability to allow tethering to use VPN upstreams
+Restore stock AOSP keyboard height
+Some CAF WiFi and BT fixes

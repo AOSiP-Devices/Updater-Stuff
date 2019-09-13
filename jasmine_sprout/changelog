@@ -1,35 +1,32 @@
-ROM side changes:
-Allow to customize Updater check interval (everyday, week or month)
-Allow suspending A/B updates
-Fix gesture for camera launch, it is now treated as a double press on power button
-Make autofill dialog background white on inbuilt black and dark theme
-Some SEPolicy fixes
-Add per app VPN data restrictions
-Add some SurfaceFlinger changes from CAF, fixes Android Auto for some devices
-Set Google autofill service as default, incase no GApps are present, none will be set
-Merge latest pie-gsi changes from AOSP
-Some Bluetooth fixes
-Optimize scrolling distance
-Long pressing on gaming mode tile will show extra info about what the toggle does
-Battery Saver tile improvements
- - battery % is shown as the label for the tile
- - "Charging" is shown when the device is charging with the same look as lockscreen
- - "Fully-charged" is shown when the device is plugged in and charged to 100%
-Show the minutes in Text lockscreen clock on one line
-Remove animation from pocket mode since it causes flickering
-Fix high battery drain after using flashlight
-Don't vibrate on touchscreen camera gesture
-Added RGB accent picker in place of current implementation
-Fixes for the new accent color picker
+Merge September Security Patch backported from Android Q
+Fix some MMS stuff
 Improve performance of unclipped layers
-Allow modifying GPU render mode in Developer Options
-
-Device side changes:
-Used a fixed top-app stune and reduce interaction boost (seems enough to maintain smoothness and saves a bit of battery life)
-Set correct QoS CPU DMA latency value for sdm660
-Enabled FIFO scheduling for UI and render threads by default (more fluidity)
-Reverted EAS/sched backports from KuranKaname's mata kernel repo and Energy Model management framework by Quentin Perret (those commits increased idle drain)
-Replaced SnapCamera with MiuiCamera
-Added Pixel 2 XL perf stack for OMX Video Decoder/Encoder
-Kernel upstreamed to 4.4.189
-Switched to fq_codel as default queueing discipline (benchmarks say download/upload speeds are a bit faster)
+Translation import and fixes
+Add config to force hide battery % on lockscreen for devices with massive notches
+Revise download speed, remaining time, and percentage in download notification
+Remove download notification after preview
+Improve scrolling friction and smoothness
+Add LED light configuration to messaging app
+Code cleanup in messaging app
+Track recorder app
+Add proper support for spell checker for a ton of languages with the right keyboard layout
+Add shadow to home button on navbar
+Cleanup code in SnapCam, fix picture size preference, allow to disable image stabilization
+Don't run notification ticker when in DND
+Sort sims by subscription ID
+Allow restricting apps from using data
+Add support for internal audio recorder
+Fix BT scan permission in appops
+Add battery estimates option and allow to configure position of it in QS
+Allow overriding DUN settings when tethering
+Shorten wait time for shutdown time optimization
+Kill some logspam
+Fix some adbd sepolicy
+Respect global vibration setting for charging sounds
+Always show alarm clock headsup in less boring headsup
+Make animations faster and smoother
+Some theme fixes for popup animation and a new network traffic arrow icon
+Add some new permissions requested by system apps
+Add capability to allow tethering to use VPN upstreams
+Restore stock AOSP keyboard height
+Some CAF WiFi and BT fixes
