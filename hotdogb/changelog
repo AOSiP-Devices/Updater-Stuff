@@ -1,0 +1,280 @@
+Fix rounded corners
+Kernel updates:
+ - Upstream kernel to 4.14.161
+ - Transition kernel to PELT while keeping all sched functionality intact (a massive thanks to @0ctobot for the help with this)
+ - Set bbr as default TCP algorithm just like on the Pixel 4
+ - Upstream wireguard to December 26 snapshot
+ - Enable LZ4 for zRAM
+ - Merge in latest OnePlus kernel changes
+Improve functionality of fingerprint scanner
+Make the Assistant animation sexier
+Add Notch Bar killer as a notch cutout option
+Turn off some debugging we don't need.
+Fix for system_server crash while booting
+Fix derp in package name
+Tiny expanding improvement
+Always allow back gesture when there are transient bars showing
+Resolve NumberPicker display abnormal issue.
+Update WifiState even if EnergyInfo is invalid
+SystemUI: restart timeout causes black screen
+Audio: Do not disconnect profiles till Bluetooth Off
+BackupAgent: add backup shared mode
+Move BT state to OFF when BLE app count is zero
+SystemUI: add more notification snooze times
+base: Expose system icon area weight
+Ambient music: send the proper pulse reason on slpi tap
+aosip: packages: Build Messaging app
+sdm845-common: sepolicy: Address neverallow introduced by vibration slider
+Add overhauled NetworkTraffic
+SystemUI: Increase battery icon width to avoid pct standing out.
+vendor:packages: remove packages that are unused or already being called
+Don't build LatinIME
+Settings: Remove battery percent switch
+Settings: Implement battery styles
+Status bar clock/date customizations
+SystemUI: Make battery icon slightly thicker for text visability
+Make percentage text inside battery readable
+SystemUI: Reduce padding between battery & signal
+base: Fix Settings & endless SystemUI crash
+ThemedMeterDrawable: Fix system crash on theme change
+Disable tuner pref for battery
+Statusbar clock: make it play better with expanded QS date
+OwlsNest: hide recents section until needed
+base: remove unneeded statusbar items
+ScreenPinningRequest: Fix recents button not appearing
+base: Update ic_doc_folder drawable to MD2
+SystemUI: Hide back icon when screen pinned and gestural mode enabled
+base: Update few drawables
+base: Add GoogleSans font overlay
+Partially Revert "Don't update dark boot setting onStart"
+Keyguard: reduce bottom text size
+base: Use MD2 icon for missed call notification
+ChooserActivity: remove ugly separator
+Add make_unique function for jni
+Increase Zenmode max hour limit from 12 to 24
+SmoothSpinners: Makes the loading "spinner" animation smoother
+AppOps: Do not prune apps that are not present
+NetworkStatsHistory: Prevent IllegalArgumentException
+KernelWakelockReader: stop the panic
+ParcelFileDescriptor: stop the panic here
+Enable NSRM (Network Socket Request Manager).
+base: limit direct share targets to reduce lag
+Camera: Don't crash when trying to disable shutter sound
+base: Update some icons to MD2
+Add DeskClock in powersave whitelist
+core: Add camera intents for camera state
+Optimize IncallUI delay for voice calls
+Add LteTile
+Settings: remove duplicate build number from firmware dialogue
+CastTile: Fix availability of Cast Quick Setting Tile
+DataSwitchTile: collapse notification panel onClick
+Disable long click for Compass tile
+ScreenshotTile: Make default state inactive
+ScreenshotTile: Use secondary label to indicate mode
+fwb: Introduce DataSwitchTile
+Disable long click for AOD tile
+SystemUI: QS: Add Compass tile
+SystemUI: QS: SoundSearchTile: Update intent flags for the apps
+SystemUI: QS: SoundSearchTile: Extend the use
+QS: Add CPUInfo toggle tile
+QS: Battery saver tile improvements
+Fix NFC tile icon when disabled
+Language toggle QS
+Add partial/full screenshot QS tile single tap to choose the mode, long press to fire
+Fix dnd tile longpress after no-title tiles commits
+base: SystemUI: stop crashing qs tiles during boot
+Add Sound tile to Quick Settings
+SystemUI:Add LTE Tile
+base: SystemUI: enable qs DUAL_TARGET_ALLOWED = true
+SystemUI: Enable and fix QS detail view, adapt layout to 10
+base: SystemUI: make the battery saver tile useful
+base: SystemUI: enhance calendar link
+Add bottom brightness slider toggle with granular control
+fingerprint: notify client when cancelling succeeded
+fwb: Conditionally set scaled brightness
+vendor: add a couple systemui perms to our whitelist
+Lockscreen no blur option: fix SysUI FC
+TunerService: Add parseInteger failsafe method
+Remove DUN requirement for tethering
+Fix android setup permissions
+base: Grant storage permission to ThemePicker
+fix error com.google.android.gms.persistent
+Fix protected broadcast error for doze intents
+SystemUI: Fix statusbar padding and layout for system icons
+Fix SystemUI crash
+Remove STATUS_BAR permission check from setRecentsVisibility & setShelfHeight
+TypeClockController: Set shouldShowStatusArea to true
+Package installer: show current and new version on apk installation
+KeyguardSliceView: adjust placement when Type clock is in use
+SystemUI: Update NotificationEntryManagerGoogle
+base: add zen mode off hook to prevent problems with ringer mode
+SystemUI: Add Sync QS Tile
+SystemUI: Add heads up tile
+webview: Allow choosing the AOSP webview
+webview: Prefer the more powerful Webview packages
+Sounds: Cleanup duplicate ringtones/alarms
+Disable logspew
+Don't spam logcat
+WindowManager: Add clearPrivateFlags
+Delete media tests
+Remove unnecessary videos
+aosipUtils: Method to detect a notch'd device
+overlay: Theme Settings search bar on dark theme
+A ton of telephony fixes and improvements
+Add api to force show led lights
+OwlsNest: Move aosp gestures to OwlsNest
+StatusbarSettings: Switch to status bar tuner.
+Add 'Invert layout' to navigation bar settings
+Run Lockscreen tuner from our Settings
+OwlsNest: Run NavBar tuner from our Settings
+OwlsNest: Launch statusbar icon editor from our Settings.
+TypeClock: Fix wrong translations of Fifteen in english specifications
+Fix Photosphere/Camera FCs
+TypeClock: Add German translation
+TypeClock: Add 24h format support
+SystemUI: Add method for getting estimated battery time
+TextClock: Spanish translation improvements
+TextClock: bring the translations back
+base: tuner: fix navbar layout switch and remove old cruft
+base: tuner: bring back tuner navbar editor from N
+SystemUI: Name Cellular Tile based on carrier
+keyguard: Actually kill Fancy Colon
+Suppress FingerprintManager logspam
+Kill off provider info logspam
+SystemUI: Fix Data Usage tile to match Settings
+Catch IllegalArgumentException in stopScreenshot()
+BrightnessDialog: dismiss on focus lost
+QS: Add advanced location tile options
+fwb: Fixes after r16 merge
+Add switch for vpn, data saver and roaming icons
+SystemUI: Add statusbar NFC icon
+SystemUI: Bringup tuner statusbar changes
+base: SystemUI: rounded_ripple must use corner_size
+base: SystemUI: tuner: fix hiding of statusbar clock
+SystemUI: Add navbar layout inversion tuning
+LockscreenShortcuts: enable default shortcuts
+Lockscreen bottom shortcuts fixes
+base: tuner: add a hide config to left and right shortcut
+Run LockscreenFragment external
+Run NavBarTuner external
+fwb: Seperate statusbar from tuner and launch externally
+Tuner: Don't clear out prefs, it's not disabled
+SystemUI: re-enable Tuner
+base: SystemUI: enable tuner and show in Settings
+base: Q seekbar: Set opacity for the seekbar when it's not interactive
+base: Q seekbar: Tweak it's size
+base: Actually fix the padding on StatusBar
+Settings: Move aosp gestures to OwlsNest
+base: Add switch for screenrecord power menu item
+Move power menu methods to our Utils class
+Disallow certain power menu items while in lock task mode
+Powermenu: Bring back Lockdown option
+Make the power menu configurable
+Disable unused power menu items
+Enable developer settings by default
+Uncomment SCREENRECORD_LONG_PRESS field
+Use custom globalActionsList to avoid conflicts
+Update date on keyguard when ticking past midnight
+base: Persistent settings icon on qs panel for 10.x
+Revert "Settings: add back selinux status in about"
+Remove the option for an automatic OTA check
+About phone: Make phone number sim slot 1 selectable
+Add back SELinux info
+Hide unsupported USB modes automatically
+Remove legal information from being indexable
+Add back arrow to Desktop backup password
+Comment out Legal/Regulatory info
+Comment out double options that were under accessibility
+Deselect items that are not meant to be clicked on in "About Phone"
+Add pocket mode
+Add auto brightness toggle to Quick Settings
+Allow to suppress notifications sound/vibration if screen is ON
+camera: Only link and use vendor.qti.hardware.camera.device if specified
+camera: Allow devices to load custom CameraParameter code
+ThemePicker: Don't trash whole theme when missing icon preview
+A ton of wifi fixes
+SettingsIntelligence: add access to private platform APIs
+core: binary: Allow modules to be built without clang
+core: Lockscreen Charging info
+Base: Hide power menu on secure lockscreen
+Unlink AoD switch pref from AoD on charge
+AoD on charge: update settings if we change options while charging
+base: wake from aod on unplug if we show on charging only
+base: add option to enable AOD on charging only
+base: Double tap to trigger doze
+SystemUI: add pulsing callback to KeyguardUpdateMonitor
+Aosp Ambient music: allow to pulse on new tracks
+Ambient music: pulse on new tracks even if all Ambient options are off
+Ambient music ticker: double tap on track title to skip track
+Fix bluetooth icon has wrong color
+check_boot_jars: Add CAF IMS to whitelist
+OwlsNest: Add lockscreen media art blur option
+Lockscreen art blur: smaller seekbar range and allow no blur
+Ask pin when tapping Cellular tile on secure lockscreen
+Remove call to expand QS panel while pressing the Airplane QS tile
+Ask pin when tapping Airplane tiles on secure lockscreen
+soong: Add AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT
+aosip: overlay: base: Use system accent as colour for user 1
+Camed HAL extension: Added support in HIDL for Extended FD.
+Settings: Show full /proc/version information
+settings: Protect sensitive info on About device
+Add accessibility timeout video and illustration
+Settings: Fix QrCamera crash on devices without flash
+Skip loading contextual cards if legacy cards are used
+Make sure close button has proper color
+Enable dismissal feature on legacy suggestions.
+Fix crash when going back from battery
+InstalledAppDetails: fix refreshing storage summary after force stop
+InstalledApp: show link to Google Play
+fuelgauge: add back battery level animation
+Settings: Add missing animations
+libui: Extend adb95ae to Gralloc3
+libui: Allow invalid bits from callers conditionally
+Connection to review.aosip.dev closed by remote host.
+surfaceflinger: Pass proper transform orientation to setProjection()
+SystemUI: fix black screen after AOD_PAUSED
+Fix protected broadcast error for doze intents
+Disable long click for SoundSearch tile
+Grant BIND_WALLPAPER permission to wp picker also on dirty flash
+Grant BIND_WALLPAPER permission to prebuilt wp picker
+Permissions: allow to grant permissions to more apps on dirty flash
+Grant Wellbeing the SUSPEND_APPS perm if already declared
+Select the proper request list size
+SystemUI: Update string for add tiles with one click
+SettingLib: Add deep sleep info to uptime preference
+Wallpaper is half black after rotating quickly
+Fix MediaProjection cast crash
+KernelCpuUidTimeReader: Decrease log level on non-eng builds
+SystemUI: Apply system_icons_keyguard_padding_end to parent view
+storage: Do not notify for volumes on non-removable disks
+UserManagerService: Use ro.aosip.fingerprint to signal upgrades
+PackageManager: allow build-time disabling of components
+Add OwlsNest dashboard entry
+manifest: aosip: Track OwlsNest
+MediaScanner: Use build date to store last scan tag
+Add new font overlays
+Switch to Pixel sounds
+Build Google Sounds and Gboard
+Gboard: Set pixel theme as default
+Utils: Update notch check logic
+AlarmManagerService: Add null check to QCNsrmAlarmExtension call
+base: media_seekbar: make it sexy
+Clean up class preloading
+toasts: Increase elevation to 4
+toasts: Follows theme corner radius
+core: Materialize Toast notifications
+Ambient Visualizer (might not work, still a WIP)
+Lockscreen Visualizer: Add pulse magic
+SystemUI: Add visualizer feature
+Statusbar clock date: behave like on stock when showing QS panel
+Add auto color option for edge lightning
+base: Add ambient pulse notification (edge lights)
+A ton of Launcher3 updates
+OwlsNest: Add LS cover art filter
+base: Allow to disable Lockscreen Media Art [1/2]
+Add VOLTE icon toggle
+SystemUI: Show 4G instead of LTE switch
+Screen off animations
+Screen off animations
+Dialer: welcome to night mode
+Messaging: add night mode
