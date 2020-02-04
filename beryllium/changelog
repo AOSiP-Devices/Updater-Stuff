@@ -1,12 +1,7 @@
----Official---
-Merge December Security patch
-
----Beta---
-Merge October Security patch
-Misc. improvements
-
----Alpha---
-Initial Android 10 build
-
 17th January, 2020 - Official
 January security patches for pie
+
+4th February, 2020 - Alpha
+February security patch for Q
+Updated to Q blobs, flash firmware from https://xiaomifirmwareupdater.com/ if any issues
+Encryption not tested, still might not be working
