@@ -22,3 +22,13 @@
 
 - February Security Patches
 - Miscellaneous changes
+
+9th February, 2020 Alpha
+
+- Added Bluetooth A2DP Offload
+- FOD improvements (better speed and improved consistency)
+- Fixed error message with Screen Off FOD
+- Increased more notification icon in statusbar
+- (Basically today's LineageOS changelog)
+- Miscellaneous ROM side updates
+
