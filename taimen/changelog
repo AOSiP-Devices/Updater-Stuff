@@ -1,1 +1,12 @@
-Initial release
+-- 15th of March, 2020 --
+
+- March ASB
+- Updated device trees for March ASB and cleaned up device trees
+- /system is now r/w
+- Enabled ambient display and status bar burn in protection overlays
+- Stopped unsupported network options from being shown
+
+-- 14th of February, 2020 --
+
+- Initial release
+- February ASB
