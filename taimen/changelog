@@ -1,3 +1,14 @@
+-- 25th of March, 2020 --
+
+- Fixed issues with CTS profile on custom built vendor.img
+- vendor.img built from source
+- Battery light now works
+- Killed bugreport service
+- Corrected hw_random permissions to reflect AOSP
+- /vendor is now r/w
+- TWRP can now mount vendor
+- Sync with AOSiP
+
 -- 15th of March, 2020 --
 
 - March ASB
