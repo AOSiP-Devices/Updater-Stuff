@@ -5,3 +5,8 @@
 2nd build
 
 - Fixed aux cameras in gcam
+
+4th April, 2020
+
+- Fixed bluetooth audio
+- Fixed ctsProfile (tested with Magisk v20.4 and Magisk Hide enabled)
