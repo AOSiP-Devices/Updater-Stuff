@@ -1,1 +1,10 @@
+-- 07/05/20 --
 
+- Initial stable release
+- May ASB
+- Added gapps and gappsless builds
+- Improved UI performance (thanks Sultan)
+- Moved to signed builds
+- Switched to source generated dtbo
+- Rebased on top of Lineage OS reviewed trees
+- Synced with AOSiP source
