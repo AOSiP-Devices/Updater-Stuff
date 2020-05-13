@@ -1,1 +1,45 @@
-Initial Android 10 Official builds
+Wednesday - 13th May, 2020
+
+Resolve a security issue in data restriction feature
+Fix webview vulnerability in captiveportal activity by disallowing private file access
+Fix force-close when trying to apply KronicGreen
+Switch to our actual wallpaper for default ThemePicker theme
+Allow a "L" back swipe using gestures to trigger more actions
+Improve Charcoal Black theme on Settings app
+Reorganize custom theme options in ThemePicker
+Fix ThemePicker force close when reading and writing launcher settings
+Fix font sample margin and padding in ThemePicker
+Fix mising textview in ThemePicker when in landscape
+Add some safe checks to default theme
+Allow customizing the length of the navigation handle
+Fix memory leak in getaddrinfo
+Make MediaProvider less spammy
+Fix kill app action in navigation gesture actions
+Add in-call vibration options:
+ - Vibrate on call connect
+ - Vibrate on call disconnect
+ - Vibrate on call waiting
+Fix network traffic and network statistics for our 4.9 kernel devices
+Align owner info as per the clock style
+Align Date/Weather/Calender information based on clock style
+Add new lockscreen clock styles:
+ - Divided Lines
+ - SFUNY
+ - Orono
+ - Samsung highlight
+ - MNML Clock
+Properly calculate the height of Text Clock
+Update the thumbnail of the Text Clock preview
+Add AOSP clock to our "Official" (no-GApps) builds
+Translation import and fixes
+Add a simple about page for AOSiP in OwlsNest
+Fix a couple typos around the settings
+Launcher3 Updates:
+ - Hide notification dots on low-RAM devices
+ - Do not check fast scroll movement to fix unresponsiveness
+ - Add kill action to app shortcuts popup (in recents menu)
+ - Add double tap to sleep gesture
+ - Disable debug logging
+ - Rewrite icon-pack implementation
+ - Fix custom grid options
+ - Switch style for media seekbar text
