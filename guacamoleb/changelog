@@ -1,6 +1,3 @@
--- 07/05/20 --
-
-- CTS Profile Fixed
-- Cam fixes
-- Source built Vibrator HAL
-- FOD on PIN/Pattern view
+Define slow auto brightness ramp animation rate
+Tune auto brightness curve
+Update kernel to exegol-B2 (4.14.178)
