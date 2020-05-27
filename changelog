@@ -1,6 +1,5 @@
-Wednesday - 20th May, 2020
+Wednesday - 27th May, 2020
 
-Add option for snoozing headsup notifications
+NavBarGesturalOverlayNoPill: Lower gesture trigger area to 18dp
 Translations import and fixes
-Fix Bluetooth audio for calls on A2DP devices
-GTA 5 being free
+Revert "aosip: configs: Flatten APEX(s) on official builds"
