@@ -1,1 +1,4 @@
-
+Fix battery light not lit after notification light off
+Other general device side updates
+Kernel based on latest SDM660 Q CAF tag
+Pulled in latest wlan drivers and wireguard updates
