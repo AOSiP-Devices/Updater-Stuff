@@ -1,4 +1,2 @@
-Fixed network traffic indicators
-Upstreamed kernel to 4.9.223
-Tuned performance and smoothness (a massive thanks to @RenderBroken for the help!)
-
+Fix setting calling account to 'Ask every time' without it being reset to sub 1 every boot.
+Massive kernel update done by @KuranKaname who is our mata (Essential PH-1 maintainer)

@@ -1,3 +1,6 @@
-Define slow auto brightness ramp animation rate
-Tune auto brightness curve
-Update kernel to exegol-B2 (4.14.178)
+Update Neutrino kernel to exegol public release
+Rework FOD (fingerprint) implementation (a green tint at certain times is normal and will be fixed in following updates, this doesnt effect reliability and is purely visual)
+Include LineageOS Recovery
+Enable Qualcomm power PASR
+Restore some fingerprint blobs from OOS
+Fix setting calling account to 'Ask every time' without it being reset to sub 1 every boot.

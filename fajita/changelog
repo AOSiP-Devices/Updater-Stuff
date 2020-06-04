@@ -1,6 +1,3 @@
-Fixed network traffic indicators
-Upstreamed kernel to 4.9.223
-Tuned performance and smoothness (a massive thanks to @RenderBroken for the help!)
-Leave space for FOD when showing pin/pattern view
-Allow FOD to work when hiding notch
-Fix ctsProfile mismatch
+Fix setting calling account to 'Ask every time' without it being reset to sub 1 every boot.
+Massive kernel update done by @KuranKaname who is our mata (Essential PH-1 maintainer)
+Rework FOD (fingerprint) which has the same performance as OOS (no flicker, no full screen brightness) a massive shoutout to LOS and Phh for their contribution
