@@ -1,91 +1,58 @@
-4th June, 2020 Release
+11th June, 2020 Release
 
-June security patch
-Allow to show battery percentage on Quick Settings statusbar
-Fix incall vibration category title
-Cleanup some battery options code
-Fix log spam in lockscreen when enabling show battery percentage
-Fix signal icon padding when using Hidden style of battery
-Switch to LineageOS Recovery for devices that build their own recovery
+Fix sorting of media
+Add QS rows and landscape rows config
+Fix MTP SD card issue
+Fix bugreport warning dialog
+Fix LTE+ indicator not shown when attached to CA network
+Explicitely disable long clicks on AOD Tile
+Show QS data saver info dialog until enabled
+Fix showing duplicated charging status
+Make sure the right DND config is used
+Sanitize Bluetooth device names causing crashes and loops
+Pad ime_switcher same as navbar buttons
+SystemUI: Show charging status in addition to trust granted/transient status
+Don't crash if the ringtone doesn't have a numerical ID
+Add blur behind quick settings, power meny, keyguard aspects
+Add Music QS Tile
+Add Reboot/Recovery QS Tile
+Replace QS Tile  Battery Saver Tile icons to MD2 Design
+Fix notification LED blink for missed calls
+Add ScreenRecord Tile
+Add VPN tile
+Add minimize & pip buttons to freeform windows
+Fix pink progress animation color in expanded Wi-Fi tile
+Resolve faulty keyguard clock logs outputs
+LineageOS Recovery updates:
+ - Print the active slot
+ - Display recovery version
+ - Draw the help message below the menu on non-touch devices
+ - Clarify help text
+ - Set the INFO color to the recovery/fastboot light color
+ - Move bootctrl.default to /vendor
+ - Map logical partitions before installation
+Export missing audio volume properties
+SEPolicy updates and fixes
 Translation import and fixes
-Accept Linux GPT partitions on external SD cards
-Fix the group permissions of the sdcard root.
-Mount ext4/f2fs portable storage
-Support internal storage partitions
-Fix fsck on public volumes
-Add support for more filesystems for public storage
-Fix the overflow issue in Checkpoint
-Consistently use CLOCK_MONOTONIC for timing encryption
-Skip setting rootfs block as ro during mount_all in recovery
-Go back to standard adb root prop
-Support wait-for- with multiple states in adb
-Run init property service in a thread
-Add error handling for init in control message
-Autodetect filesystem type
-Make adb use a custom prop for adb root
-Add adb_root daemon and hooks
-Fix NPE if default supervisor is not defined
-netd: Allow devices to force-add directly-connected routes
-Updater updates:
- - Only cancel notification if update isn't installed
- - Remove dialog before showing a new one and when detaching
- - Delete updates only after refreshing the notification
-Add dark mode support for Alert Dialog
-Include chromium-webview
-Some Sepolicy fixes
+Config to hide status bar on lock screen
+Fix Wifi icon in inactive state when using Custom icon pack
+Lockscreen clock updates:
+ - Fix NPE in TextClock
+ - Clean up hacky layouts for MNMLBox Clock
+ - DividedLines Clock: Add proper preview layout
+ - DividerLines Clock: Fix margin issue in layout
+ - DividerLines Clock: Set 24-hr time format as well
+SystemUI: Use color accent for user avatar default color
+Lockscreen Charging: Formatting improvements
+Add outline style to caffeine qs tile drawable
+Visualizer: Ensure multi-thread safety
+Fix custom lockscreen shortcut icons being white
+Tint power menu icons with the system accent also for IconPackOverlays.
+WiFi Display fixes and improvements
 
-The following are only applicable to our Official (non-Gapps) builds:
-AOSP Dialer Updates:
- - Fix Failed to show hold call when user click swap and merge simultaneously
- - Fix FATAL Exception in PostCallActivity
- - AOSP/Dialer - Fix improperly formatted resource string in Dialer across many languages.
- - Fix the issue that automatic mute state remains ON after adding VT call
- - Fix error case which session change request failed when pausing video
- - Fix for button flickering issue when video call screen rotates
- - Fix to update peer dimensions when video screen resumes foreground
- - Fix issue that the hold label is not shown during remote video holding
- - Fix preview image overlaps a call button during video call
- - Dialer: allow framework to do dark theming automatically
- - Updated target SDK from 28 to 29.
- - Dialer: Remove old dark theme
-AOSP Contacts updates:
- - Updated to sdkVersion 29.
- - Contacts: manually configure dark theme for list
- - Contacts: allow framework to do dark theming automatically
- - Contacts: use white nav bar
- - Contacts: Remove current dark theme
-AOSP Messaging updates:
- - Remove current dark mode
- - Messaging: disable auto dark theming on message bubble
- - Messaging: allow framework to do dark theming automatically
- - Rescheduling pending messages after outside window failure
- - Fix NPE on MultiConversationNotificationState
- - Hide APN prefs if platform APIs are used
- - Fix to show APN prefs correctly
- - Fix NPE
- - Handle delivered messages as completed messages
- - Messaging: bump target SDK version to 29
- - Messaging: Fix sysconfig whitelist filename
- - Dismiss SnackBar when detached
- - Fix assert fail during onSaveInstanceState()
- - Messaging: Show quick reply choices only on wearable devices
- - Fix WindowLeaked issue on AttachmentPreview
- - Fix undesirable ripple effect on GalleryGridView
- - New interface to pick a contact as attachment
- - ProcessPendingMessagesAction works based on subscriptions
- - Allow intent shared subject or title to be mms subject
- - Update runner to AndroidJUnittest
- - Support audio attachments through GalleryMediaChooser
- - Support video attachments through GalleryMediaChooser
- - Show attachments size during composing MMS
- - Do not show the fail icon for a group conversation
- - Actual attachments size is the minimum size except images
- - Allow acceptable media types only for sharing
- - Support sharing with image/video/audio/vcard and text fully
- - Messaging: Handle multiple participants in custom notifications
- - Fix android.os.strictmode.LeakedClosableViolation
- - Register implicit broadcasts at runtime for updating widgets
- - Fix to show PersonItemView for TYPE_CHOOSER_GRID correctly
- - Fix covering issue for video thumbnails on widget view
- - Fix wrong margin on widget conversation view
- - Fix showing wrong image on document picker item
+The following only apply to our Official (non-Gapps) builds:
+AOSP Clock:
+ - Modernize timer_setup_time look
+ - Update drawables
+ - Added SET_ALARM permission check
+ - Updated to sdkVersion 29
