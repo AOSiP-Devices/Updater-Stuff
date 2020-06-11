@@ -1,3 +1,6 @@
-Fix setting calling account to 'Ask every time' without it being reset to sub 1 every boot.
-Massive kernel update done by @KuranKaname who is our mata (Essential PH-1 maintainer)
-Rework FOD (fingerprint) which has the same performance as OOS (no flicker, no full screen brightness) a massive shoutout to LOS and Phh for their contribution
+Fix mobile data not toggling when 2 sims are inserted
+Upstreamed kernel to 4.9.226
+Merge in latest OOS kernel sources
+Fingerprint (FOD) updates:
+ - Don't set device to high brightness mode when enrolling fingerprint, instead only brighten FP area
+ - Don't lose bits when using fingerprint

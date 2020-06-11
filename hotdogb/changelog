@@ -1,6 +1,13 @@
-Update Neutrino kernel to exegol public release
-Rework FOD (fingerprint) implementation (a green tint at certain times is normal and will be fixed in following updates, this doesnt effect reliability and is purely visual)
-Include LineageOS Recovery
-Enable Qualcomm power PASR
-Restore some fingerprint blobs from OOS
-Fix setting calling account to 'Ask every time' without it being reset to sub 1 every boot.
+The kernel is now compiled with LTO (ld.lld)
+Update Neutrino kernel to felucia Beta 1 release:
+ - Update to Linux 4.14.182
+ - Roll back experimental QoS/cpuidle patches
+   * Address inconsistent idle drain
+ - Various patches courtesy of @kerneltoast
+   * Speed up mbcache entry creation
+   * Inline the spin lock function family
+ - Enable TCP ECN negotiation
+ - Enable LZ4 as zRAM compression algorithm
+   * Remove restrictions on algorithm selection
+ - Silence numerous dmesg loggers
+ - Scheduler idle loop optimizations

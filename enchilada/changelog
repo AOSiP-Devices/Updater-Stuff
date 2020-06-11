@@ -1,2 +1,3 @@
-Fix setting calling account to 'Ask every time' without it being reset to sub 1 every boot.
-Massive kernel update done by @KuranKaname who is our mata (Essential PH-1 maintainer)
+Fix mobile data not toggling when 2 sims are inserted
+Upstreamed kernel to 4.9.226
+Merge in latest OOS kernel sources
