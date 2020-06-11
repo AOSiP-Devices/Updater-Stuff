@@ -1,2 +1,3 @@
-- Update blobs to June patch
+- Merge lineage device tree changes
+  - this should fix bluetooth issues and hopefully wifi works again as well.
 
