@@ -1,58 +1,20 @@
-11th June, 2020 Release
+18th June, 2020 Release
 
-Fix sorting of media
-Add QS rows and landscape rows config
-Fix MTP SD card issue
-Fix bugreport warning dialog
-Fix LTE+ indicator not shown when attached to CA network
-Explicitely disable long clicks on AOD Tile
-Show QS data saver info dialog until enabled
-Fix showing duplicated charging status
-Make sure the right DND config is used
-Sanitize Bluetooth device names causing crashes and loops
-Pad ime_switcher same as navbar buttons
-SystemUI: Show charging status in addition to trust granted/transient status
-Don't crash if the ringtone doesn't have a numerical ID
-Add blur behind quick settings, power meny, keyguard aspects
-Add Music QS Tile
-Add Reboot/Recovery QS Tile
-Replace QS Tile  Battery Saver Tile icons to MD2 Design
-Fix notification LED blink for missed calls
-Add ScreenRecord Tile
-Add VPN tile
-Add minimize & pip buttons to freeform windows
-Fix pink progress animation color in expanded Wi-Fi tile
-Resolve faulty keyguard clock logs outputs
-LineageOS Recovery updates:
- - Print the active slot
- - Display recovery version
- - Draw the help message below the menu on non-touch devices
- - Clarify help text
- - Set the INFO color to the recovery/fastboot light color
- - Move bootctrl.default to /vendor
- - Map logical partitions before installation
-Export missing audio volume properties
-SEPolicy updates and fixes
-Translation import and fixes
-Config to hide status bar on lock screen
-Fix Wifi icon in inactive state when using Custom icon pack
-Lockscreen clock updates:
- - Fix NPE in TextClock
- - Clean up hacky layouts for MNMLBox Clock
- - DividedLines Clock: Add proper preview layout
- - DividerLines Clock: Fix margin issue in layout
- - DividerLines Clock: Set 24-hr time format as well
-SystemUI: Use color accent for user avatar default color
-Lockscreen Charging: Formatting improvements
-Add outline style to caffeine qs tile drawable
-Visualizer: Ensure multi-thread safety
-Fix custom lockscreen shortcut icons being white
-Tint power menu icons with the system accent also for IconPackOverlays.
-WiFi Display fixes and improvements
-
-The following only apply to our Official (non-Gapps) builds:
-AOSP Clock:
- - Modernize timer_setup_time look
- - Update drawables
- - Added SET_ALARM permission check
- - Updated to sdkVersion 29
+Add QS Blur toggle, remove blur behind power menu
+Refactor navigation and move to OwlsNest>Navbar and add more gesture actions
+Add toggle to disable on screen navbar
+Add Hardware key support for backlight and swapping back and recents
+Add statusbar brightness control gesture
+Update camera flash method (which applies to some features like long press power for torch)
+Reduce custom clock status view left padding
+Fix missing status view on custom lockscreen clocks
+Fix QS detail header padding
+Fix battery/percent padding
+Refactor Quick Settings custom rows/column count and move to OwlsNest>Quick Settings
+Add QS tile titles visibility toggle
+Add animation with interpolator options for Quick settings
+Add QS pull down with one finger (Quick QS)
+Fix caffeine tile crashing during boot
+Use secondary label for caffeine tile
+Long press Caffeine tile for infinite duration
+Fix string in settings from locksreen to lockscreen
