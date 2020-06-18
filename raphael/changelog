@@ -1,0 +1,4 @@
+-Added back missing AptX blobs
+-Added ringer check to popup sounds
+-Fixed Ok Google with stock dtbo
+-Reduced burn in shift values
