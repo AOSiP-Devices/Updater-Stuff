@@ -1,3 +1,8 @@
+-- 18/06/20 --
+
+- Camera fixed
+- Fingerprint updated, should now pass SN without Magisk props
+
 -- 06/05/20 --
 
 - Initial Stable Release
