@@ -1,6 +1,1 @@
-Fix mobile data not toggling when 2 sims are inserted
-Upstreamed kernel to 4.9.226
-Merge in latest OOS kernel sources
-Fingerprint (FOD) updates:
- - Don't set device to high brightness mode when enrolling fingerprint, instead only brighten FP area
- - Don't lose bits when using fingerprint
+Upstreamed kernel to 4.9.227
