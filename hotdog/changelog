@@ -1,17 +1,18 @@
-Update NeutrinoKernel to felucia-Beta2:
- - Update to Linux 4.14.183
+Fix adaptive brightness constant ramp up/down
+
+Update NeutrinoKernel to felucia-prerelease1:
+ - Update to Linux 4.14.185
  - Update to latest CAF 4.14 sources
-   * Merge LA.UM.8.9.r1-09300-SM6xx.0
-   * Merge LA.UM.8.1.r1-15100-sm8150.0
  - Update WLAN drivers to 5.2.03.26Q
-   * Merge latest audio/data-kernels
+ - Merge June security patches
  - Merge f2fs-stable 5.7-rc1-4.14 release
- - Various patches from @kerneltoast, @arter97
-   * Utilize treewide stack buffers where possible
-   * Additional dynamic allocation avoidance
- - Tentatively disable s2idle suspend mode
+ - Update WireGuard to version 1.0.20200611
+ - Eliminate HOUSTON/CONTROL_CENTER entirely
+ - Restore OEM dts required for 5G support
+ - Various patches courtesy of @kerneltoast, @arter97
+ - Tentatively disable s2idle as default suspend mode
  - Rollback experimental QoS/cpuidle patches
  - Enable TCP ECN negotiation
  - Enable LZ4 as zRAM compression algorithm
- - Silence numerous dmesg loggers
- - Scheduler idle loop optimizations
+   * Remove all restrictions on algorithm/disksize selection
+ - Optimize out loop delays in lieu of queued spin locks
