@@ -1,20 +1,24 @@
-18th June, 2020 Release
+25th June, 2020 Release
 
-Add QS Blur toggle, remove blur behind power menu
-Refactor navigation and move to OwlsNest>Navbar and add more gesture actions
-Add toggle to disable on screen navbar
-Add Hardware key support for backlight and swapping back and recents
-Add statusbar brightness control gesture
-Update camera flash method (which applies to some features like long press power for torch)
-Reduce custom clock status view left padding
-Fix missing status view on custom lockscreen clocks
-Fix QS detail header padding
-Fix battery/percent padding
-Refactor Quick Settings custom rows/column count and move to OwlsNest>Quick Settings
-Add QS tile titles visibility toggle
-Add animation with interpolator options for Quick settings
-Add QS pull down with one finger (Quick QS)
-Fix caffeine tile crashing during boot
-Use secondary label for caffeine tile
-Long press Caffeine tile for infinite duration
-Fix string in settings from locksreen to lockscreen
+Fix live caption button when on left side
+Statusbar padding fixes
+Fix issues with Bluetooth tile
+Fix layout issues in QS details
+Fix QS Detail Header spacing and padding
+Add fingerprint authentication vibration toggle for failure and success
+OwlsNest: Redo Buttons page
+Implement R style notification section headers and make it toggleable
+Themes: Set UserIcons tintMode to SRC_ATOP
+Fix lockscreen blur FC
+Add rounded hexagon icon overlay
+Use IMPORTANCE_LOW notification channel for screen recorder notification
+Set a better screenrec notification icon
+Swap the low quality switch with a bitrate selector
+Add support for internal audio recording for screen recorder
+Lower the internal audio capture restriction
+Expose QS detail header for our theming
+Translation import and fixes
+
+The following only applies to our Official (non-Gapps) builds:
+Require external legacy storage for AOSP Messaging
+Fix call recording force close in AOSP Dialer
