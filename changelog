@@ -1,24 +1,36 @@
-25th June, 2020 Release
+2nd July, 2020 Release
 
-Fix live caption button when on left side
-Statusbar padding fixes
-Fix issues with Bluetooth tile
-Fix layout issues in QS details
-Fix QS Detail Header spacing and padding
-Add fingerprint authentication vibration toggle for failure and success
-OwlsNest: Redo Buttons page
-Implement R style notification section headers and make it toggleable
-Themes: Set UserIcons tintMode to SRC_ATOP
-Fix lockscreen blur FC
-Add rounded hexagon icon overlay
-Use IMPORTANCE_LOW notification channel for screen recorder notification
-Set a better screenrec notification icon
-Swap the low quality switch with a bitrate selector
-Add support for internal audio recording for screen recorder
-Lower the internal audio capture restriction
-Expose QS detail header for our theming
-Translation import and fixes
-
-The following only applies to our Official (non-Gapps) builds:
-Require external legacy storage for AOSP Messaging
-Fix call recording force close in AOSP Dialer
+Use headline font for vpn footer in QS
+Improve the VPN footer layout
+Add Less boring heads up option
+ - Less boring headsup: allow any sms/dialer app set as default by user
+ - Less boring heads up option: always show alarm clock headsup
+Remove WallpaperPicker since we already have ThemePicker
+Fix grid control activity name in Theme Picker
+Disable AOD tile when power save mode is on
+Cycle through AOD states in AOD Tile
+Remove long click intent in AOD tile
+Fix visibility in expanded statusbar network traffic
+Hide traffic indicators on the lockscreen
+Wrap the size of the navigation handle
+Make IME button space optional
+Allow to hide navigation bar gesture completely
+Improve gesture navigation handle length
+Allow a "L" back swipe to trigger more actions
+Allow disabling lock icon on lockscreen
+Do not allow disabling the default keyboard
+Allow disabling brightness slider -/+ switch
+Add time refresh capabilities for bold, digital and Samsung lockscreen clocks
+Add proper preview layout for MNML clock
+Fix inactive state Wifi Icon in Circular & Filled Icon Pack
+Fix action bar font family on material themes
+Add some fonts:
+ - Titillium Web font
+ - Ubuntu font
+ - Fira Sans font
+ - OnePlus Slate
+ - Samsung One fonts
+Update GoogleSans
+Add Pebble icon shape
+Add capability to allow tethering to use VPN upstreams
+Update Bluetooth to CAF implementation, should address TWS compatibility among other fixes
