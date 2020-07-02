@@ -1,4 +1,2 @@
--Enabled Statusbar/Navbar burn in protection (enabled by default)
--Enabled vibration multiple intensities (option under accessibility settings) 
--Fixed ADB reset on reboot
--Removed AOD Shift
+- Switched to QCOM BT stack (Adds support for aptX TWS+)
+ 
