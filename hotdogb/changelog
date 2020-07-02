@@ -1,18 +1,29 @@
-Fix adaptive brightness constant ramp up/down
-
-Update NeutrinoKernel to felucia-prerelease1:
- - Update to Linux 4.14.185
+Fix adaptive(auto) brightness being slow when going from low to high
+Update NeutrinoKernel to felucia public release:
+ - Update to Linux 4.14.186
  - Update to latest CAF 4.14 sources
- - Update WLAN drivers to 5.2.03.26Q
- - Merge June security patches
+ - Merge LA.UM.8.9.r1-09300-SM6xx.0
+ - Merge LA.UM.8.1.r1-15100-sm8150.0
+ - Update WLAN drivers to 5.2.03.26Q (qcacld-3.0, qcacmn, fw-api)
+ - Merge latest audio/data-kernels
+ - Merge June security patches (ASB-2020-06-05_4.14-q)
  - Merge f2fs-stable 5.7-rc1-4.14 release
  - Update WireGuard to version 1.0.20200611
  - Eliminate HOUSTON/CONTROL_CENTER entirely
+ - Swap coretech drivers for no-op placeholders
  - Restore OEM dts required for 5G support
  - Various patches courtesy of @kerneltoast, @arter97
+ - Speed up mbcache entry creation
+ - Inline the spin lock function family
+ - Utilize treewide stack buffers where possible
+ - Additional dynamic allocation avoidance
  - Tentatively disable s2idle as default suspend mode
  - Rollback experimental QoS/cpuidle patches
+ - Utilize gist for out-of-tree FKM support
  - Enable TCP ECN negotiation
  - Enable LZ4 as zRAM compression algorithm
-   * Remove all restrictions on algorithm/disksize selection
+ - Remove all restrictions on algorithm/disksize selection
  - Optimize out loop delays in lieu of queued spin locks
+ - Further inline with Pixel Scheduler
+ - Scheduler idle loop optimizations
+ - Silence numerous dmesg loggers
