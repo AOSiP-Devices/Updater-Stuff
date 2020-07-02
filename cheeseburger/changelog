@@ -1,4 +1,4 @@
-Fixed VoWiFi
-Inlined DotFix 5.6
-Misc bug fixes
-Uses nitrogen kernel by @generichandle
+* Added CameraHIDL interface for OnePlus camera
+* Updated DC Dimming Tile icon
+* Updated GPS configs
+* Wifi: smarter decisions on whether to use a 2- or 5Ghz AP
