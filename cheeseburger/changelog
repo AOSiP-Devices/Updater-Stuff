@@ -1,4 +1,3 @@
-* Added CameraHIDL interface for OnePlus camera
-* Updated DC Dimming Tile icon
-* Updated GPS configs
-* Wifi: smarter decisions on whether to use a 2- or 5Ghz AP
+removed single tap gesture (wasn't working anyways)
+disabled USAP for now
+kernel updates by @poad42

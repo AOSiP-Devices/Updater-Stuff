@@ -1,4 +1,3 @@
--Enabled Statusbar/Navbar burn in protection (enabled by default)
--Enabled vibration multiple intensities (option under accessibility settings) 
--Fixed ADB reset on reboot
--Removed AOD Shift
+-Enable unspecialized app process pool
+-Disable few debug services
+-system_prop: complete displayfeature histogram prop
