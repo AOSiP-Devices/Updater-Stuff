@@ -1,2 +1,3 @@
-- Switched to QCOM BT stack (Adds support for aptX TWS+)
- 
+-Enable unspecialized app process pool
+-Disable few debug services
+-system_prop: complete displayfeature histogram prop
