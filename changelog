@@ -1,36 +1,38 @@
-2nd July, 2020 Release
+9th July, 2020 release
 
-Use headline font for vpn footer in QS
-Improve the VPN footer layout
-Add Less boring heads up option
- - Less boring headsup: allow any sms/dialer app set as default by user
- - Less boring heads up option: always show alarm clock headsup
-Remove WallpaperPicker since we already have ThemePicker
-Fix grid control activity name in Theme Picker
-Disable AOD tile when power save mode is on
-Cycle through AOD states in AOD Tile
-Remove long click intent in AOD tile
-Fix visibility in expanded statusbar network traffic
-Hide traffic indicators on the lockscreen
-Wrap the size of the navigation handle
-Make IME button space optional
-Allow to hide navigation bar gesture completely
-Improve gesture navigation handle length
-Allow a "L" back swipe to trigger more actions
-Allow disabling lock icon on lockscreen
-Do not allow disabling the default keyboard
-Allow disabling brightness slider -/+ switch
-Add time refresh capabilities for bold, digital and Samsung lockscreen clocks
-Add proper preview layout for MNML clock
-Fix inactive state Wifi Icon in Circular & Filled Icon Pack
-Fix action bar font family on material themes
-Add some fonts:
- - Titillium Web font
- - Ubuntu font
- - Fira Sans font
- - OnePlus Slate
- - Samsung One fonts
-Update GoogleSans
-Add Pebble icon shape
-Add capability to allow tethering to use VPN upstreams
-Update Bluetooth to CAF implementation, should address TWS compatibility among other fixes
+Add HeadsUp timeout function
+Add Ethereal background
+Allow the user to move battery icon to QS header
+UI Improvements for screenrecord
+Correct colors for icons in "Search settings" for dark theme
+fonts: drop semi-bold from Gsans and FiraSans
+Lockscreen clock updates
+Extend brightness slider -/+ switch to the brightness mirror
+Fix preview tile in grid option picker
+Revert "ThemePicker: fix grid control activity name"
+OwlsNest: Add Default USB Configuration switch
+SystemUI: Add USB Tether tile
+Trebuchet: Replace LockClock widget with DeskClock
+Trebuchet: Add 5x6, 5x7 and 6x6 default workspaces
+Revert "Add developer options for grid change for Styles"
+Revert "Launcher3: we never want to disable grid control provider"
+Disable QSB on first screen by default
+QSB: request round search bar
+Trebuchet: Update default workspace
+
+The following only applies to our Official (non-Gapps) builds
+AOSP Keyboard updates:
+ - Add Bulgarian, Georgian and Ukrainian wordlists
+ - Enable spellchecker for additional languages
+ - HU enable predictive dictionary and remove unused letters
+ - Add Hungarian QWERTY, enable predictive dictionary
+ - Add support for Bepo keyboard layout
+ - Add support for Australian English
+ - Add Luxembourgish keyboard & spellchecking dictionary
+Use a DayNight launch theme for AOSP Messaging and Dialer
+AOSP Clock updates:
+ - Remove notification sound from firing and snoozing channels
+ - Move navigation bar to bottom
+ - Also apply disabled color to annotations
+ - Come to the dark side...
+ - Rework notification channel implementation
