@@ -1,3 +1,4 @@
 removed single tap gesture (wasn't working anyways)
-disabled USAP for now
-kernel updates by @poad42
+enabled USAP (faster app launching speeds)
+switched to weeb kernel (nos kernel didn't boot inline)
+updated camera props
