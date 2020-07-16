@@ -1,1 +1,3 @@
-- Switch to source built DTBO
+- Trimmed down DTBO size
+- Enable updating of APEXes and included Play Store updates for it (check under System settings)
+
