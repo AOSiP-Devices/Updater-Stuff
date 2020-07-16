@@ -1,4 +1,9 @@
-removed single tap gesture (wasn't working anyways)
-enabled USAP (faster app launching speeds)
-switched to weeb kernel (nos kernel didn't boot inline)
-updated camera props
+Switch to CustomDoze
+Fixed fps overlay
+Added Google Play System Updates
+Add a few missing dotfix libs
+Switched to NOS kernel (and compiled with proton clang)
+- switch to sm8250 qcacld
+- f2fs updates
+- switched to slmk
+- upstreamed to 4.4.230
