@@ -1,17 +1,21 @@
-16th July, 2020 release
+23rd July, 2020 release
 
+Move remaining active edge/motion sense code to settings for the Pixel 4 series
+Add support for per app network isolation
+Redo gestures page in OwlsNest
 Update GMS updater component disable list
 Update Ethereal theme colors
-CPU info overlay updates
-Translation updates
-Pulse navbar audio gfx visualizer added
-DeskClock: Remove notification sound from firing and snoozing channels
-OwlsNest: Hardware key enable switch
-Set Assistant UID of the current user
-SystemUI: Add tile for enable/disable HW keys
-Buttons: Hardware key disable support
-OwlsNest: ticker/headsup availability
-Status bar notification ticker
-Contacts: Make the launch screen follow the system theme
-AOSP Keyboard updates
+CPU Info overlay updates:
+ - Don't show during doze
+ - Check early if CPU temp is available
+ - Fix CPU info overlay text layout
+ - Bring back CPU temperature to CPU info overlay
+ - Adjust CPU overlay style
+ - Fix number of CPUs check
 
+The following only applies to our Official (non-Gapps) builds:
+AOSP clock Updates:
+ - Fix crash when there are pending processes
+ - Add increasing volume option for alarm clocks
+ - Fix FAB not being shown everytime
+ - Properly align settings
