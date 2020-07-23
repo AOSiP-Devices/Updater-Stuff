@@ -1,16 +1,18 @@
-Screen Off FOD (check under lockscreen setting in Security)
-Update displayfeature fod command to match miui
-Enable updating of APEXes and included Play Store updates for it (check under System settings)
-Drop doze auto brightness
-Switch back to Miui brightness values
-Adjust brightness nits for index 1
+-Changed lowest brightness level
+-Enabled assisted iwlan (better vowifi)
+-Fixed low mic issues
+-a way to handle night light while using fod
+
+=========== 2020/07/16 changelog's ===========
+-Screen Off FOD (check under lockscreen setting in Security)
+-Update displayfeature fod command to match miui
+-Enable updating of APEXes and included Play Store updates for it (check under System settings)
+-Drop doze auto brightness
+-Switch back to Miui brightness values
+-Adjust brightness nits for index 1
 
 =========== 2020/07/09 changelog's ===========
 
 -Enable unspecialized app process pool
 -Disable few debug services
 -system_prop: complete displayfeature histogram prop
-
-
-=========== 2020/07/02 changelog's ===========
-- Switched to QCOM BT stack (Adds support for aptX TWS+)
