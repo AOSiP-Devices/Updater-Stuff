@@ -1,9 +1,5 @@
-Switch to CustomDoze
-Fixed fps overlay
-Added Google Play System Updates
-Add a few missing dotfix libs
-Switched to NOS kernel (and compiled with proton clang)
-- switch to sm8250 qcacld
-- f2fs updates
-- switched to slmk
-- upstreamed to 4.4.23
+Remove unnecessary CDMA options
+
+Kernel updates
+- switched to sm8150 qcacld
+- upstreamed to 4.4.231
