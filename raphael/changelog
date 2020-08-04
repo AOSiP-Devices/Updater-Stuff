@@ -1,3 +1,23 @@
+raphael: props: drop soft_backlight and GL backpressure
+raphael: decrease statusbar height & increase icons padding
+raphael: Unify back gesture vibration with system wide haptics
+raphael: sepolicy: Label new battery supply and usb supply nodes
+raphael: sepolicy: Extend untrusted_app access to battery/power supply sysfs
+raphael: Use stock vibration pattern
+raphael: Disable VSync for CPU rendered apps
+raphael: DcDimmingSettingsFragment: Listen for qs tiles change
+raphael: sepolicy: Allow system app to access device info variables
+raphael: parts: Add Dirac summary in Sound settings
+raphael: sepolicy: Fix remaining camera motor denial
+raphael: Remove legacy firmware directories
+raphael: override some overlays present in stock vendor
+raphael: add statusbar height from stock
+raphael: adjust window rounded corners
+raphael: remove audio_platform_info.xml
+raphael: Update props from latest miui
+raphael: lets enable assisted iwlan
+
+=========== 2020/07/24 changelog's ===========
 -Changed lowest brightness level
 -Enabled assisted iwlan (better vowifi)
 -Fixed low mic issues
@@ -10,9 +30,3 @@
 -Drop doze auto brightness
 -Switch back to Miui brightness values
 -Adjust brightness nits for index 1
-
-=========== 2020/07/09 changelog's ===========
-
--Enable unspecialized app process pool
--Disable few debug services
--system_prop: complete displayfeature histogram prop
