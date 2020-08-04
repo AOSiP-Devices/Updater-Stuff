@@ -1,3 +1,2 @@
-- Merge lineage device tree changes
-  - this should fix bluetooth issues and hopefully wifi works again as well.
-
+- Merge lineage device tree changes from the past month
+- Update blobs to August (QQ3A.200805.001)
