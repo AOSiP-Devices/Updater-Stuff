@@ -1,21 +1,19 @@
-23rd July, 2020 release
+4th August, 2020 release
 
-Move remaining active edge/motion sense code to settings for the Pixel 4 series
-Add support for per app network isolation
-Redo gestures page in OwlsNest
-Update GMS updater component disable list
-Update Ethereal theme colors
-CPU Info overlay updates:
- - Don't show during doze
- - Check early if CPU temp is available
- - Fix CPU info overlay text layout
- - Bring back CPU temperature to CPU info overlay
- - Adjust CPU overlay style
- - Fix number of CPUs check
-
-The following only applies to our Official (non-Gapps) builds:
-AOSP clock Updates:
- - Fix crash when there are pending processes
- - Add increasing volume option for alarm clocks
- - Fix FAB not being shown everytime
- - Properly align settings
+August 2020 security patches
+LatinIME theme updates
+Fix freeform window moving/resizing doesn't work
+package_whitelist: Whitelist QCOM FMRadio
+Restore some fonts back to previous styles
+Revert "Fix action bar font family on material themes"
+Fix navbar when IME space is hidden
+Update AOD title string
+Fix theme for PostCallActivity
+Dialer: Set default call recording audio source to VOICE_CALL
+DeskClock font, icon updates and some fixes
+Phone ringtone setting for Multi SIM device
+SystemShortcut: Add uninstall option
+A lot of launcher updates (for the non gapps builds)
+Add protected apps in launcher
+Fix action bar font family on material themes
+Active Edge / Motion Sense cleanup
