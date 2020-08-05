@@ -1,5 +1,1 @@
-Fixed broken cam from previous build
-Bunch of ims changes
-Add Audiosphere blobs from LA.UM.8.6.r1-04400-89xx.0
-Bluetooth updates
-Build with Google Play System Updates
+Enable zygote preforking (basically faster app launch speeds)
