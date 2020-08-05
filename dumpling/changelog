@@ -1,5 +1,6 @@
-Remove unnecessary CDMA options
+Some paddng updates
 
 Kernel updates
-- switched to sm8150 qcacld
-- upstreamed to 4.4.231
+-Merge pelt sched stuff from weeb and switch to it
+-merge 4.4.232 and LA.UM.8.4.1.r1-02100-8x98.0
+-pick sulatan's ion and iommu stuff
