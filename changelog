@@ -1,19 +1,24 @@
-4th August, 2020 release
+13th August, 2020 release
 
-August 2020 security patches
-LatinIME theme updates
-Fix freeform window moving/resizing doesn't work
-package_whitelist: Whitelist QCOM FMRadio
-Restore some fonts back to previous styles
-Revert "Fix action bar font family on material themes"
-Fix navbar when IME space is hidden
-Update AOD title string
-Fix theme for PostCallActivity
-Dialer: Set default call recording audio source to VOICE_CALL
-DeskClock font, icon updates and some fixes
-Phone ringtone setting for Multi SIM device
-SystemShortcut: Add uninstall option
-A lot of launcher updates (for the non gapps builds)
-Add protected apps in launcher
-Fix action bar font family on material themes
-Active Edge / Motion Sense cleanup
+Add burn in protection for custom lockscreen clocks
+Fix NPE on SFUNY lockscreen clock style
+Fix NPE on divided lines lockscreen clock
+Add ability to change font style for new clocks
+Reduce some crashes
+Cache pin algorithms
+Cache the global proxy to avoid fetching it for every request
+Cache KeyStoreService
+Refactor killapp implementation
+Fix notification ticker layout
+overlay: drop some configs
+Disable statusbar time refresh when screen off
+Add back button for freeform window
+Force-enable permissions hub
+Smoother Upload and Download Animation for network traffic
+Longer wifi scan interval
+Remove child when a new view is added
+Inline screenshot trigger with AOSP values
+Drop custom white and black accents
+Settings: Avoid enforcing weird backgrounds
+Fix customseekbar "min" value calls
+Add POSP Volume styles
