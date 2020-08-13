@@ -1,3 +1,9 @@
+raphael: Enable fluence voice recording
+raphael: parts: Show back button on thermal activity
+raphael: parts: Disable hifi preference when toggling switchbar
+raphael: Set dynamic thermal interval to 5 sec
+
+=========== 2020/08/04 changelog's ===========
 raphael: props: drop soft_backlight and GL backpressure
 raphael: decrease statusbar height & increase icons padding
 raphael: Unify back gesture vibration with system wide haptics
@@ -22,11 +28,3 @@ raphael: lets enable assisted iwlan
 -Enabled assisted iwlan (better vowifi)
 -Fixed low mic issues
 -a way to handle night light while using fod
-
-=========== 2020/07/16 changelog's ===========
--Screen Off FOD (check under lockscreen setting in Security)
--Update displayfeature fod command to match miui
--Enable updating of APEXes and included Play Store updates for it (check under System settings)
--Drop doze auto brightness
--Switch back to Miui brightness values
--Adjust brightness nits for index 1
