@@ -1,20 +1,7 @@
-Enable USAP
-Include dtbo in recovery image to avoid recovery from not booting when dtbo partition is corrupt/broken
-Update vibration effect when alert slider is used
-Update NeutrinoKernel to genosis-Beta 2:
- - Update to Linux 4.14.188
- - Update to latest CAF 4.14 sources
-   * Merge LA.UM.8.1.r1-15400-sm8150.0
-   * Merge LE.UM.4.3.3.r1-00500-SDX55
- - Update WLAN drivers to 5.2.03.27R
-   * Update to LA.UM.8.11.1.r1-00300-QCM6125.0
-   * Merge latest audio/data-kernels
- - Merge latest mainline exFAT drivers
- - Update WireGuard to version 1.0.20200623
- - Enable CFI_CLANG
-   * Merge latest upstream LTO/CFI/SCS patches
-   * Add support for Clang's ShadowCallStack
-   * Fix outstanding treewide CFI violations
- - Tentatively introduce MSM Simple Thermal
- - Mainline schedutil updates
-   * Balance schedutil rate limits
+Switch FOD implementation to FOD Extension which has the same accuracy as OOS
+Update NeutrinoKernel to hoth Beta 1:
+ - Update to Linux 4.14.191
+ - Update WireGuard to version 1.0.20200729
+ - Tentatively enable Clang SHADOW_CALL_STACK
+   * Various fixes for modern Clang toolchains
+   * Rebuild and update to Clang 12
