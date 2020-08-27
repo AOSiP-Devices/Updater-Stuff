@@ -1,6 +1,1 @@
-kernel updates by @poad42
-fix blackscreen on nikgcam
-switch to qcom implementation for qcom effects
-switch back to caf powerhal from pixel
-switch to aosp telephony stack
-update display, media and audio to latest caf tag
+bug fixes and optimizations™
