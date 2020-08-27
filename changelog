@@ -1,24 +1,63 @@
-13th August, 2020 release
+27th August, 2020 release
 
-Add burn in protection for custom lockscreen clocks
-Fix NPE on SFUNY lockscreen clock style
-Fix NPE on divided lines lockscreen clock
-Add ability to change font style for new clocks
-Reduce some crashes
-Cache pin algorithms
-Cache the global proxy to avoid fetching it for every request
-Cache KeyStoreService
-Refactor killapp implementation
-Fix notification ticker layout
-overlay: drop some configs
-Disable statusbar time refresh when screen off
-Add back button for freeform window
-Force-enable permissions hub
-Smoother Upload and Download Animation for network traffic
-Longer wifi scan interval
-Remove child when a new view is added
-Inline screenshot trigger with AOSP values
-Drop custom white and black accents
-Settings: Avoid enforcing weird backgrounds
-Fix customseekbar "min" value calls
-Add POSP Volume styles
+base: QS battery improvements
+base: revert all caf telephony related commits
+base: move some custom dimens to aosip_dimens
+base: move AOSP accents to vendor/overlay
+Solid render: Code clean up and possibly improve performance
+TyepClockAlt: Allign owner info
+OwlsNest: Move Ambient Pulse to its own page
+Extend Pulse to Ambient Screen
+Extend NavBar Pulse to LockScreen
+external/pulse: Extend Pulse to Ambient Screen
+LS/Nav Pulse: fix FC and improve performances
+nuke lockscreen visualizer
+Remove lockscreen/ambient visualizer
+Revert "Increase padding for notifs & qs panel"
+core: Update default material popup animations
+
+OwlsNest: POSP Volume panel: Dont allow value strings to be translated
+OwlsNest: String fixups
+OwlsNest: Move pulse to System category
+OwlsNest: compat>compact
+OwlsNest: add a bottom summary to notification about ticker/headsup
+OwlsNest: Switch Ticker to MasterSwitch
+
+Overlay: actually include LatinIME dictionaries
+overlay: Adjust black accent for light/dark themes
+Overlay: drop a few exposures
+overlay: move AOSP accents to vendor/overlay
+Overlay: Add Solarized Semi-Transparent primary
+overlay: Add Clear Primary
+
+vendor: apns-conf: Add Hits APN
+vendor: apns-conf: Drop proxy for Movistar
+vendor: Drop verity tool
+vendor: kernel: Add back support for custom dtboimg makefile
+vendor: drop opa prop
+Adapt to 6.0.1_r52 backup whitelist
+support: add SimpleCustomSecureSeekBarPreference
+Remove deprecated backup overlay
+Show the nearby chip for images and files too.
+
+mkdtboimg: Add support to V0 DTBO image creation
+mkdtboimg: Make filepath search recursive
+
+kernel: Add support for mkdtimg cfg_create
+kernel: Switch to mkdtboimg.py
+kernel: Rework how DTB/DTBO are built
+kernel: Set full path to DTC
+kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg
+kernel: Bail-out if kernel config isn't set
+kernel: Add support for module aliases
+kernel: Allow installing modules on vendor_overlay
+Revert "kernel: Set full path to DTC"
+prebuilt: Clean up aosip-system.rc
+Clang cleanup
+Update prebuilt Clang to r399163 (11.0.4).
+Update profdata for r399163 using profiles from build 6757078.
+
+manifest: add steps to take if device is OnePlus/Verizon
+Manifest: remove a couple unneeded repos after new setup
+manifest: track libufdt
+aosip: xda template: drop github releases
