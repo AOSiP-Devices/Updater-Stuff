@@ -1,3 +1,26 @@
+4th September, 2020 release
+
+base: Add support to disable h265 on screenrecorder
+EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
+FingerprintManager: return "Try again" by default
+RecordingActivityMonitor: remove spam from death events
+Don't send interaction hint for unnecessary events
+Calm down attention service logspam
+SystemUI: Fix SystemUI failed to go to doze issue
+Always set deprecated Build.SERIAL to UNKNOWN
+Enable boot/bootloader/radio version checks
+Permissions: Stop auto-granting location to system browsers
+Notifications: Make USB-Debugging notification less important
+Notification: Fix no icon shown for data limit notification
+OwlsNest: String fixups
+OwlsNest: Move pulse to System category
+Revert "base: view: Speed things up!!"
+Revert "Let's cut Max Excape Animation in Half"
+aapt2: do not use compression
+Settings: use style ActionPrimaryButton for buttons
+Settings: restyle that horrible sim select dialog
+
+
 27th August, 2020 release
 
 base: QS battery improvements
