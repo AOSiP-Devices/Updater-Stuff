@@ -1,5 +1,28 @@
-4th September, 2020 release
+12th September, 2020 release 
 
+Bump SPl to 2020-09-05
+Add back increasing ring feature
+QS panel opacity
+aapt2: do not use compression
+Revert "Let's cut Max Excape Animation in Half"
+Remove useless png and add vector drawable
+Remove "storage type" preference from Settings
+soong: Forbid arm-linux-androidkernel-as and arm-linux-androidkernel-ld
+mkdtboimg: Sanitize dt filename
+mkdtboimg: Allow specifying full path for dtb
+Fix CDM.requestNotificationAccess() in profile.
+netd: Sort and cache hosts file data for fast lookup
+kernel: Use CPATH for including host headers
+Revert "base: revert all caf telephony related commits"
+Revert "base: view: Speed things up!!"
+aosip: sepolicy: Label legacy GNSS service
+gnss-legacy: Bring back Beidou
+gnss-legacy: Bring back GLONASS
+gnss: Rename to legacy
+interfaces: Import GNSS 1.0 HAL from hardware/interfaces
+lineage/interfaces: add powershare HAL
+
+4th September, 2020 release
 base: Add support to disable h265 on screenrecorder
 EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
 FingerprintManager: return "Try again" by default
@@ -19,68 +42,3 @@ Revert "Let's cut Max Excape Animation in Half"
 aapt2: do not use compression
 Settings: use style ActionPrimaryButton for buttons
 Settings: restyle that horrible sim select dialog
-
-
-27th August, 2020 release
-
-base: QS battery improvements
-base: revert all caf telephony related commits
-base: move some custom dimens to aosip_dimens
-base: move AOSP accents to vendor/overlay
-Solid render: Code clean up and possibly improve performance
-TyepClockAlt: Allign owner info
-OwlsNest: Move Ambient Pulse to its own page
-Extend Pulse to Ambient Screen
-Extend NavBar Pulse to LockScreen
-external/pulse: Extend Pulse to Ambient Screen
-LS/Nav Pulse: fix FC and improve performances
-nuke lockscreen visualizer
-Remove lockscreen/ambient visualizer
-Revert "Increase padding for notifs & qs panel"
-core: Update default material popup animations
-
-OwlsNest: POSP Volume panel: Dont allow value strings to be translated
-OwlsNest: String fixups
-OwlsNest: Move pulse to System category
-OwlsNest: compat>compact
-OwlsNest: add a bottom summary to notification about ticker/headsup
-OwlsNest: Switch Ticker to MasterSwitch
-
-Overlay: actually include LatinIME dictionaries
-overlay: Adjust black accent for light/dark themes
-Overlay: drop a few exposures
-overlay: move AOSP accents to vendor/overlay
-Overlay: Add Solarized Semi-Transparent primary
-overlay: Add Clear Primary
-
-vendor: apns-conf: Add Hits APN
-vendor: apns-conf: Drop proxy for Movistar
-vendor: Drop verity tool
-vendor: kernel: Add back support for custom dtboimg makefile
-vendor: drop opa prop
-Adapt to 6.0.1_r52 backup whitelist
-support: add SimpleCustomSecureSeekBarPreference
-Remove deprecated backup overlay
-Show the nearby chip for images and files too.
-
-mkdtboimg: Add support to V0 DTBO image creation
-mkdtboimg: Make filepath search recursive
-
-kernel: Add support for mkdtimg cfg_create
-kernel: Switch to mkdtboimg.py
-kernel: Rework how DTB/DTBO are built
-kernel: Set full path to DTC
-kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg
-kernel: Bail-out if kernel config isn't set
-kernel: Add support for module aliases
-kernel: Allow installing modules on vendor_overlay
-Revert "kernel: Set full path to DTC"
-prebuilt: Clean up aosip-system.rc
-Clang cleanup
-Update prebuilt Clang to r399163 (11.0.4).
-Update profdata for r399163 using profiles from build 6757078.
-
-manifest: add steps to take if device is OnePlus/Verizon
-Manifest: remove a couple unneeded repos after new setup
-manifest: track libufdt
-aosip: xda template: drop github releases
