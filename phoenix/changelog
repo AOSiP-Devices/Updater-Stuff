@@ -1,1 +1,2 @@
-- Fixed dt2w for some panels, thanks to merothh
+- Fixed GApps issues on the nongapps builds, opengapps work fine now
+- Possibly fixed video recording issues, need confirmation
