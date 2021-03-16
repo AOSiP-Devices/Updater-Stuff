@@ -1,3 +1,4 @@
-13th February, 2021 release
+16th March, 2021 release
 
-Bump security patch level to 5th February, 2021
+Bump security patch level to 5th March, 2021
+Added in patch to block key attestation for play services
