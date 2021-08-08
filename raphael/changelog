@@ -1,0 +1,33 @@
+8th August, 2021 release
+
+raphael: Remove virtual framebuffer.
+raphael: parts: ThermalUtils startService -> initialize
+raphael: parts: Add switchbar to disable dynamic thermal
+raphael: Enable aux camera for Snap
+raphael: overlay: Add Snap overlay
+raphael: overlay: Hide unsupported color effects entry of Snap
+raphael: rootdir: hide magisk better
+raphael: parts: Add icons for popup settings
+raphael: parts: rename sound effect string
+raphael: popup: Simulate a back key code when "no" is pressed
+raphael: Theme the popup camera dialog
+raphael: parts: Allow to always display front camera open dialog
+raphael: parts: Show alert dialog before raising camera when screen is off
+raphael: parts: disable popup camera sound by default
+raphael: parts: Always show the warning dialog
+raphael: parts: Add a warning dialog for manual calibrations
+raphael: parts: Add a setting to calibrate the motor
+raphael: parts: Quickly takeback the motor in free fall
+raphael: parts: Delay creating MotorStatusCallback when the motor is opened
+raphael: parts: Implement popup motor calibration
+raphael: parts: Directly takeback the motor if it's not closed on create
+raphael: parts: Increase BootCompletedReceiver priority
+raphael: parts: Add icon for Clear Speaker
+raphael: parts: Implement Clear Speaker
+raphael: parts: Dirac: Add bass booster preset
+raphael: parts: Use all shared resources from devicesettings
+raphael: parts: Update Thermal Profiles drawable icons
+raphael: parts: Display icon beside thermal profiles
+raphael: parts: Improve strings for game mode
+raphael: parts: Add ACTION_SCREEN_ON intent filter
+props: whitelist ANX for size stream skip
